@@ -61,12 +61,9 @@
   box-shadow: 8px 8px 1px 1px #87745C;
 }
 
-
 .calc-form input:invalid {
   border: red solid 3px;
 }
-
-
 
 .calc-form label span {
   position: relative;
@@ -265,6 +262,7 @@ input[type=radio] {
   opacity: 1;
   transform: scale(1.5);
   transition: all 0.3s ease;
+  transition-delay: 0.75s;
   -webkit-transition-delay: 0.75s;
 }
 
@@ -272,17 +270,20 @@ input[type=radio] {
   transform: translate(0.09em, 0.09em);
   box-shadow: 0px 0px 0px 0px rgba(200, 200, 200, 0.1);
   border: 3px solid #4B6279;
+  transition-delay: 0.75s;
   -webkit-transition-delay: 0.75s;
+  animation: boom 1s ease-out;
   -webkit-animation: boom 1s ease-out;
+  animation-delay: 0.75s;
   -webkit-animation-delay: 0.75s;
 }
 
 .card input[type=radio]:focus+label .inlet .text__effect {
   transition: all 0.2s ease-out;
+  transition-delay: 0.75s;
   -webkit-transition-delay: 0.75s;
   color: #4B6279;
   border-bottom: 1px solid #4B6279;
-  border-bottom-height: 20px;
 }
 
 .card input[type=radio]+label .inlet .text__effect {
@@ -291,6 +292,7 @@ input[type=radio] {
 
 .card input[type=radio]:focus+label .outer .inner:after {
   opacity: 1;
+  transform: translate(140px, -150px) scale(0.01);
   -webkit-transform: translate(140px, -150px) scale(0.01);
   transition: all 1s ease;
 }
