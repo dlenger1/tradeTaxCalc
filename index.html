@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords"
+    content="Business, Finance, Consulting, Accounting, Loans, Optimization, Analyzes, Banking, Audit, Capital, Costs reduction, Employee benefits, Company value">
+  <meta name="description" content="Gewebesteuerrechner">
+  <title>Gewebesteuerrechner</title>
+  <script src="https://kit.fontawesome.com/ef0ec2ef31.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="/style/calc.css">
+</head>
+
+<body>
+  <div class="calculator-overlay calculator-overlay--active">
+    <div class="calculator-container">
+      <i class="fa fa-window-close calculator-overlay__close" aria-hidden="true"></i>
+      <h1 class="calc-title">Gewerbesteuerrechner mit Hebesatz der Gemeinde</h1>
+      <div class="cCalc">
+        <div class="cCalc__left" id="entries-holder">
+          <form class="calc-form" action="" id="calc-form__id" autocomplete="off">
+            <label for="Business-income">Gewerbeertrag <span class="">€</span></label>
+            <input type="text" name="Business-income" id="Business-income" value="0">
+            <!-- <input inputmode="decimal" type="number" name="Business-income" id="Business-income" value="0" step="0.01"
+              lang="de-DE" pattern="[0-9]+([.,][0-9]{1,2})?"> -->
+            <label for="tax-rate">Hebesatz der Gemeinde <span class="">%</span></label>
+            <input type="text" name="tax-rate" id="tax-rate" value="0">
+            <label for="additional-amount">Hinzurechnungsbetrag <span class="">€</span></label>
+            <input type="text" name="additional-amount" id="additional-amount" value="0">
+            <label for="reduction-amount">Kürzungsbetrag <span class="">€</span></label>
+            <input type="text" name="reduction-amount" id="reduction-amount" value="0">
+          </form>
+          <div class="card">
+            <h2>Rechtsform</h2>
+            <ul>
+              <li><input type="radio" id="rad1" name="radios" checked />
+                <label for="rad1">
+                  <span class="outer">
+                    <span class="inner">
+                    </span>
+                  </span>
+                  <p class="inlet br"><span class="text__effect">
+                      Einzelunternehmen<br>/Personengesellschaft
+                    </span>
+                  </p>
+                </label>
+              </li>
+              <li><input type="radio" id="rad2" name="radios" />
+                <label for="rad2">
+                  <span class="outer">
+                    <span class="inner">
+                    </span>
+                  </span>
+                  <p class="inlet">
+                    <span class="text__effect">
+                      Kapitalgesellschaft
+                    </span>
+                  </p>
+                </label>
+              </li>
+              <li><input type="radio" id="rad3" name="radios" />
+                <label for="rad3">
+                  <span class="outer">
+                    <span class="inner">
+                    </span>
+                  </span>
+                  <p class="inlet br">
+                    <span class="text__effect">
+                      Juristische Person des<br>öffentlichen Rechts u.a.
+                    </span>
+                  </p>
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="cCalc__right">
+          <div class="cCalc__section">
+            <div class="cCalcSection">
+              <div class="cCalcSection__title">
+                <p>Ergebnis</p>
+              </div>
+              <div class="cCalcSection__groups">
+                <div class="cCalcSection_group">
+                  <div class="cFormResult">
+                    <div class="cFormResult_name result__div">Ergebnis</div>
+                    <span class="cFormResult__value" id="result">0,00 €</span>
+                  </div>
+                </div>
+                <div class="cCalcSection_group">
+                  <div class="cFormResult">
+                    <div class="cFormResult_name">Gewerbeertrag</div>
+                    <span class="cFormResult__value" id="business-income__out">0,00 €</span>
+                  </div>
+                </div>
+                <div class="cCalcSection_group">
+                  <div class="cFormResult">
+                    <div class="cFormResult_name">Abgerundet ¹</div>
+                    <span class="cFormResult__value" id="rounded">0,00 €</span>
+                  </div>
+                </div>
+                <div class="cCalcSection_group">
+                  <div class="cFormResult">
+                    <div class="cFormResult_name">+ Hinzurechnungsbetrag</div>
+                    <span class="cFormResult__value" id="additional-amount__out">0,00 €</span>
+                  </div>
+                </div>
+                <div class="cCalcSection_group">
+                  <div class="cFormResult">
+                    <div class="cFormResult_name reduction-amount__out-div">– Kürzungsbetrag</div>
+                    <span class="cFormResult__value" id="reduction-amount__out">0,00 €</span>
+                  </div>
+                </div>
+                <div class="cCalcSection_group">
+                  <div class="cFormResult">
+                    <div class="cFormResult_name">– Freibetrag</div>
+                    <span class="cFormResult__value" id="allowance">24.500,00 €</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="cCalc__section">
+            <div class="cCalcSection">
+              <div class="cCalcSection__groups">
+                <div class="cCalcSection_group">
+                  <div class="cFormResult">
+                    <div class="cFormResult_name">Gewerbesteuer-Messzahl</div>
+                    <span class="cFormResult__value" id="tax-assessment__number">3,50 %</span>
+                  </div>
+                </div>
+                <div class="cCalcSection_group">
+                  <div class="cFormResult">
+                    <div class="cFormResult_name">Steuermessbetrag</div>
+                    <span class="cFormResult__value" id="tax-assessment__amount">0,00 €</span>
+                  </div>
+                </div>
+                <div class="cCalcSection_group">
+                  <div class="cFormResult">
+                    <div class="cFormResult_name">Hebesatz der Gemeinde</div>
+                    <span class="cFormResult__value" id="municipal-tax__rate">0,00 %</span>
+                  </div>
+                </div>
+                <div class="cCalcSection_group">
+                  <div class="cFormResult">
+                    <div class="cFormResult_name" id="trade-tax__div">Gewerbesteuer</div>
+                    <span class="cFormResult__value" id="trade-tax">0,00 €</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="cCalc__section">
+            <div class="cCalcSection">
+              <div class="cCalcSection__groups">
+                <div class="cCalcSection_group">
+                  <div class="cFormNotice">
+                    <div class="cFormNotice__text">¹ Der verbleibender Gewerbeertrag wird auf volle 100 € abgerundet.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cCalc__info scroll-box">
+          <h3>Einträge im Gewerbesteuerrechner</h3>
+          <p>Sie sehen die einzelnen Einträge in unserem Gewerbesteuerrechner, die Sie
+            für ein korrektes Ergebnis sorgfältig vornehmen müssen:</p>
+          <ul>
+            <li>Gewerbeertrag</li>
+            <li>Hebesatz Ihrer Gemeinde</li>
+            <li>Hinzurechnungsbetrag</li>
+            <li>Kürzungsbetrag</li>
+            <li>Rechtsform: Einzelunternehmen/Personengesellschaft oder
+              Kapitalgesellschaft oder juristische Person öffentliches Recht oder
+              andere Form</li>
+          </ul>
+          <h3>Festlegung der Gewerbesteuer</h3>
+          <p>Die Kommunen und Gemeinden legen die Gewerbesteuer in ihrer Höhe durch
+            einen Hebesatz fest. Dieser unterscheidet sich in Deutschland zwischen
+            einzelnen Städten und Gemeinden erheblich. Die höchsten Sätze gibt es in
+            rheinland-pfälzischen Kommunen, sie reichen bis zu 900 %. Die
+            niedrigsten Sätze sind mit 200 % in Brandenburg und
+            Mecklenburg-Vorpommern anzutreffen, 200 % ist der gesetzlich
+            vorgeschriebene Mindestsatz. Dieser Hebesatz ist ein Mittel der Kommunen
+            und Gemeinden, um Unternehmen gegebenenfalls mit niedrigen
+            Gewerbesteuern anzulocken oder auch durch hohe Hebesätze entsprechend
+            hohe Steuereinnahmen abschöpfen zu können. Die Steuereinnahmen aus der
+            Gewerbesteuer dienen der Finanzierung von Gemeindehaushalten. Die
+            Gewerbesteuer muss jeder Gewerbebetrieb zahlen, allerdings gibt es je
+            nach Rechtsform unterschiedliche Freibeträge:</p>
+          <ul>
+            <li>Einzelunternehmen und Personengesellschaften erhalten einen
+              Freibetrag von 24.500 Euro jährlich</li>
+            <li>Kapitalgesellschaften erhalten keinen Freibetrag</li>
+            <li>Für öffentliche Rechtspersonen liegt der Freibetrag bei jährlich
+              5.000 Euro</li>
+          </ul>
+          <p>Zudem unterliegt der Gewerbeertrag als Bemessungsgrundlage Kürzungen und
+            Hinzurechnungen für Bankzinsen, Raummieten, Leasingraten, Grundbesitz,
+            Gewinnanteile von Personengesellschaften und weitere Bestandteile der
+            Unternehmensfinanzierung bzw. des Vermögens einer Firma. Wenn der Betrag
+            ermittelt wurde, erfolgt eine abschließende Abrundung, nämlich auf volle
+            100 Euro, sowie eine Multiplikation mit der Gewerbesteuermesszahl 3,5 %.
+            Der Betrag kann nicht negativ werden, es gibt daher keine
+            Gewerbesteuererstattung (im Gegensatz zur Umsatz- oder
+            Einkommenssteuererstattung). Nachdem nun der Steuermessbetrag ermittelt
+            wurde, kann die Gemeinde ihren Hebesatz anwenden, wodurch sich die zu
+            zahlende Gewerbesteuer ergibt.</p>
+          <h3>Gewerbesteuerhebesatz: Minenfeld für die Gemeinden</h3>
+          <p>Es ist nicht einfach für eine Gemeinde oder Kommune, ihren
+            Gewerbesteuerhebesatz festzulegen. 200 % müssen es mindestens sein, doch
+            jede Erhöhung darüber hinaus schafft ein Spannungsfeld zwischen höheren
+            Einnahmen aus der Gewerbesteuer und der möglichen Flucht von
+            Unternehmen. Die Kämmerer der betroffenen Stadt- und
+            Gemeindeverwaltungen müssen hier klug kalkulieren. Wenn sie viele
+            Gewerbetreibende mit Kleinbetrieben - Personengesellschaften,
+            Einzelunternehmen - haben, können sie im Prinzip den Hebesatz ruhig
+            etwas anheben, denn der Einzelunternehmer muss seinen Firmensitz im
+            Prinzip an seinen Wohn-Hauptsitz verlegen. Dieser ist sein
+            Lebensmittelpunkt, hier wird er voraussichtlich schon aus familiären
+            Gründen ansässig bleiben und den meisten Umsatz erwirtschaften.
+            Kapitalgesellschaften hingegen können ihren Hauptsitz relativ frei
+            wählen. Sollte ein solcher Großbetrieb der wichtigste Arbeitgeber und
+            Steuerzahler am Ort sein, wäre es unklug, ihn durch eine zu hohe
+            Gewerbesteuer zu verprellen.</p>
+          <h3>Anrechnung der Gewerbesteuer</h3>
+          <p>Die Gewerbesteuer wird auf die Einkommensteuer der Einzelunternehmer und
+            Gesellschafter von Personengesellschaften bis zu 3,8 Mal angerechnet,
+            sodass sie bis 380 % Hebesatz einkommensneutral bleibt. Der
+            Gewerbesteuerrechner berücksichtigt diese Anrechnung und nennt die
+            prozentuale Durchschnittsbelastung für Unternehmer. Berücksichtigt
+            werden bei dieser Berechnung:</p>
+          <ul>
+            <li>Gewerbeertrag</li>
+            <li>Freibetrag</li>
+            <li>Einkommensteuerermäßigung</li>
+          </ul>
+          <p>Um den Rechner richtig zu nutzen, muss der aktuelle Hebesatz bekannt
+            sein. Die Gemeinden können ihn jährlich ändern, das geschieht auch sehr
+            oft. Diese Steuerart ist ihre wichtigste Einnahmequelle, eine
+            Gewebesteuer gibt es nur in Deutschland. Natürlich wird sie hinterfragt,
+            weshalb die Kommunen mit ihren Infrastrukturausgaben argumentieren.
+            Verschwinden wird die Steuer nicht, mit dem Gewerbesteuerrechner lässt
+            sie sich aber genau ermitteln.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/js/calculator.js"></script>
+</body>
+
+</html>
