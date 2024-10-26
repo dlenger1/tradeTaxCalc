@@ -3,10 +3,10 @@ class Calculator {
   constructor() {
     this.digitPeriodRegExp = new RegExp('\\d|\\.|\\,');
     // this.openButton = document.getElementById('start-calc');
-    this.closeButton = document.getElementsByClassName(
-      'calculator-overlay__close'
-    );
-    this.calcOverlay = document.getElementsByClassName('calculator-overlay');
+    // this.closeButton = document.getElementsByClassName(
+    //   'calculator-overlay__close'
+    // );
+    // this.calcOverlay = document.getElementsByClassName('calculator-overlay');
     // the calc inputs fields
     this.businessIncome = document.getElementById('Business-income');
     this.taxRat = document.getElementById('tax-rate');
@@ -40,10 +40,10 @@ class Calculator {
   // 2.events
   events() {
     // this.openButton.addEventListener('click', this.openCalcOverlay.bind(this));
-    this.closeButton[0].addEventListener(
-      'click',
-      this.closeCalcOverlay.bind(this)
-    );
+    // this.closeButton[0].addEventListener(
+    //   'click',
+    //   this.closeCalcOverlay.bind(this)
+    // );
     this.cCalc.addEventListener(
       'keypress',
       (e) => {
@@ -80,16 +80,16 @@ class Calculator {
   }
 
   //3. Methods
-  openCalcOverlay() {
-    this.calcOverlay[0].classList.add('calculator-overlay--active');
-    // document.getElementsByTagName('body')[0].classList.add('stop-scrolling');
-  }
-  closeCalcOverlay() {
-    console.log('hallo');
+  // openCalcOverlay() {
+  //   this.calcOverlay[0].classList.add('calculator-overlay--active');
+  //   // document.getElementsByTagName('body')[0].classList.add('stop-scrolling');
+  // }
+  // closeCalcOverlay() {
+  //   console.log('hallo');
 
-    this.calcOverlay[0].classList.remove('calculator-overlay--active');
-    // document.getElementsByTagName('body')[0].classList.remove('stop-scrolling');
-  }
+  //   this.calcOverlay[0].classList.remove('calculator-overlay--active');
+  //   // document.getElementsByTagName('body')[0].classList.remove('stop-scrolling');
+  // }
 
   convertNumberToLocal(val, styleObj) {
     // new Intl.NumberFormat('de-DE').format(val);

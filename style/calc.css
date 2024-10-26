@@ -1,4 +1,4 @@
-.calculator-overlay {
+/* .calculator-overlay {
   overflow-y: auto;
   overflow-x: hidden;
   z-index: 110;
@@ -13,39 +13,44 @@
   transform: scale(1.09);
   transition: opacity 0.3s, transform 0.3s, visibility 0.3s;
   box-sizing: border-box;
-}
+} */
 
-.calculator-overlay--active {
+/* .calculator-overlay--active {
   visibility: visible;
   opacity: 0.95;
   transform: scale(1);
-}
+} */
 
-.calculator-container {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  width: 80%;
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, 1);
-}
-
-.calculator-overlay__close {
+/* .calculator-overlay__close {
   margin-left: auto;
   padding: 20px 20px 0px 0px;
   font-size: 2.1rem;
   cursor: pointer;
   transition: all 0.3s;
-  /* background-color: #fff; */
   color: darkOrange;
   line-height: 0.7;
+} */
+
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  border-radius: 5px;
+  border: none;
+  /* background-color: #FFFFFF; */
 }
 
 .calc-title {
-  color: white;
+  font-size: 3.5rem;
+  /* font-family: "Swiss721BT Condensed",
+    "Helvetica Neue Condensed",
+    sans-serif; */
+  color: #424253;
   font-weight: bold;
-  padding: 20px;
+  padding: 2rem;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .cCalc {
@@ -58,7 +63,8 @@
 
 .calc-form {
   margin: auto;
-  box-shadow: 8px 8px 1px 1px #87745C;
+  /* box-shadow: 8px 8px 1px 1px #87745C; */
+  border: 10px solid #4D4D4C;
 }
 
 .calc-form input:invalid {
@@ -67,17 +73,22 @@
 
 .calc-form label span {
   position: relative;
-  top: 2px;
-  left: 10px;
+  top: 0.2rem;
+  left: 1rem;
   color: red;
+}
+
+.cCalc__left {
+  font-size: 1.6rem;
+  width: 40%;
 }
 
 .cCalc__right {
   display: flex;
   flex-direction: column;
   background-color: #f6f6f6;
-  margin-left: 40px;
-  padding: 0px 16px 16px 16px;
+  margin-left: 4rem;
+  padding: 0 1.6rem 1.6rem 1.6rem;
   /* box-shadow: 6px 6px 3px 1px #e32a05 inset; */
   box-shadow: 0px 0px 0px 5px #e32a05;
 }
@@ -92,28 +103,32 @@
 }
 
 .cCalcSection__title {
-  font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.3rem;
   text-align: center;
 }
 
 .cCalc__section {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .cCalcSection__groups {
   display: grid;
-  row-gap: 22px;
+  row-gap: 2.2rem;
 }
 
 .cFormResult {
   display: flex;
   align-content: center;
   align-items: center;
-  column-gap: 5px;
+  column-gap: 0.5rem;
   flex-wrap: wrap;
   justify-content: space-between;
+  font-size: 1.6rem;
+}
+
+.cFormNotice__text {
+  font-size: 1.4rem;
 }
 
 .span-err {
@@ -121,61 +136,52 @@
   font-weight: bold;
 }
 
-.scroll-box {
-  background-color: #fff;
-  border: 2px solid #0f9d58;
-  border-radius: 8px;
-  padding: 15px;
-  margin-top: 20px;
-  width: 80%;
-  height: 200px;
-  overflow-y: auto;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.cCalc__info {
+  font-size: 1.6rem;
+  color: #4d4d4c;
 }
 
 .cCalc__info h3 {
-  font-weight: 400;
-  color: #333;
-  font-size: 19px;
-  font-family: 'Franziska, Georgia, Cambria';
+  font-size: 2rem;
+  /* font-family: 'Franziska, Georgia, Cambria'; */
 }
 
 .cCalc__info p {
-  font-style: italic;
+  /* font-style: italic; */
   padding-left: 2rem;
-  font-size: 19px;
-  line-height: 26.22px;
-  font-family: 'Franziska, Georgia, Cambria';
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+  color: #4d4d4c;
+  /* font-family: 'Franziska, Georgia, Cambria'; */
 }
 
 /* _____-- ul styling for info ---_____ */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"); */
 
 .cCalc__info ul {
   position: relative;
-  font-family: 'Franziska, Georgia, Cambria';
+  /* font-family: 'Franziska, Georgia, Cambria'; */
   margin-left: 3rem;
 }
 
 .cCalc__info li {
   position: relative;
   left: 0;
-  color: #100e0e;
   list-style: none;
-  margin: 10px 0;
-  /* border-left: 2px dotted #00f597; */
+  margin: 1rem 0;
   transition: 0.5s;
   cursor: pointer;
-  line-height: 25px;
+  line-height: 2.5rem;
 }
 
 .cCalc__info ul li:hover {
-  left: 10px;
+  left: 1rem;
 }
 
 .cCalc__info ul li:before {
   content: "• ";
-  color: rgb(255, 47, 102);
+  color: rgb(11, 8, 9);
+  font-size: 2rem;
   width: 100%;
   height: 100%;
   transform: scaleX(0);
@@ -209,20 +215,20 @@ input[type=radio] {
 }
 
 .card {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 600;
+  /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
   font-size: 1em;
   background: #fff;
   text-align: center;
-  width: 300px;
-  height: 270px;
-  margin: 30px auto 10px auto;
-  box-shadow: 8px 8px 1px 1px #87745C;
+  /* width: 30rem; */
+  height: 27rem;
+  margin: 3rem auto 1rem auto;
+  /* box-shadow: 8px 8px 1px 1px #87745C; */
+  border: 10px solid #4D4D4C;
 }
 
 .card h2 {
   position: relative;
-  padding-top: 30px;
+  padding-top: 3rem;
   color: #4B6279;
 }
 
@@ -233,8 +239,8 @@ input[type=radio] {
 
 .card li {
   display: block;
-  height: 50px;
-  margin-left: 20px;
+  height: 5rem;
+  margin-left: 2rem;
   text-align: left;
 }
 
@@ -292,19 +298,19 @@ input[type=radio] {
 
 .card input[type=radio]:focus+label .outer .inner:after {
   opacity: 1;
-  transform: translate(140px, -150px) scale(0.01);
-  -webkit-transform: translate(140px, -150px) scale(0.01);
+  transform: translate(14rem, -15rem) scale(0.01);
+  -webkit-transform: translate(14rem, -15rem) scale(0.01);
   transition: all 1s ease;
 }
 
 .card .outer {
-  width: 30px;
-  height: 30px;
+  width: 3rem;
+  height: 3rem;
   border: 3px solid #87745C;
   position: relative;
   display: inline-block;
   background: transparent;
-  margin: 25px 20px 0 30px;
+  margin: 2.5rem 2rem 0 3rem;
   border-radius: 50%;
   cursor: pointer;
   top: 0;
@@ -322,29 +328,44 @@ input[type=radio] {
 .card .inner:before {
   content: "";
   top: 50%;
-  left: 7px;
+  left: 0.7rem;
   color: #4B6279;
   transform: scale(0) translateY(-50%);
 }
 
 .card .inner:after {
   content: "";
-  left: -140px;
-  bottom: -180px;
-  font-size: 2em;
+  left: -14rem;
+  bottom: -18rem;
+  font-size: 3em;
   transform: scale(3);
   color: #4B6279;
 }
 
 .card .inlet {
   position: relative;
-  top: -31px;
-  left: 80px;
+  top: -3rem;
+  left: 8rem;
   color: #87745C;
 }
 
 .card .inlet.br {
-  top: -45px;
+  top: -4.5rem;
+}
+
+#trade-tax__div,
+#trade-tax {
+  color: #08da6a;
+}
+
+.reduction-amount__out-div,
+#reduction-amount__out {
+  color: #e32a05;
+}
+
+.result__div,
+#result {
+  color: #5908da;
 }
 
 @-webkit-keyframes boom {
@@ -367,30 +388,75 @@ input[type=radio] {
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1115px) {
   .calc-title {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .calculator-container {
+    width: 90%;
+  }
+
+  .cCalc__left {
+    width: 40%;
+  }
+
+  .cCalc__right {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .calc-title {
+    font-size: 2rem;
+    line-height: 3rem;
   }
 
   .cCalc {
     flex-direction: column;
-    padding: 20px;
+  }
+
+  .cCalc__left {
+    width: 100%;
   }
 
   .cCalc__right {
     margin-left: 0;
+    width: 100%;
   }
 
   .card {
-    margin: 1px auto 10px auto;
+    margin: 0.1rem auto 1rem auto;
+    width: 100%;
+  }
+
+  .tooltip-text {
+    right: 50px;
+    background: #ec7878;
+    color: #333;
+    z-index: 5;
   }
 }
 
 
+
 /* Scrollbar Styles */
+/* .scroll-box {
+  background-color: #fff;
+  border: 2px solid #0f9d58;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  width: 80%;
+  height: 20rem;
+  overflow-y: auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 1.6rem;
+}
+
 .scroll-box::-webkit-scrollbar {
-  width: 12px;
+  width: 1.2rem;
 }
 
 .scroll-box::-webkit-scrollbar-track {
@@ -405,32 +471,16 @@ input[type=radio] {
 
 .scroll-box::-webkit-scrollbar-thumb:hover {
   background: #0b8043;
-}
+} */
 
 /* For Firefox */
-.scroll-box {
+/* .scroll-box {
   scrollbar-width: thin;
   scrollbar-color: #0f9d58 #f1f1f1;
 }
 
 @media screen and (max-width: 600px) {
   .scroll-box {
-    height: 150px;
+    height: 15rem;
   }
-}
-
-#trade-tax__div,
-#trade-tax {
-  color: #08da6a;
-  font-weight: bolder;
-}
-
-.reduction-amount__out-div,
-#reduction-amount__out {
-  color: #e32a05;
-}
-
-.result__div,
-#result {
-  color: #5908da;
-}
+} */
