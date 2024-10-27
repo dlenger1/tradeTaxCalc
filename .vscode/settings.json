@@ -1,4 +1,6 @@
 {
-  "liveServer.settings.port": 5700,
-  "cSpell.words": ["Hinzurechnungsbetrag"]
+  "liveServer.settings.port": 5500,
+  "cSpell.words": ["Hinzurechnungsbetrag"],
+  "liveServer.settings.useLocalIp": true
+  // "liveServer.settings.host": "127.0.0.1"
 }

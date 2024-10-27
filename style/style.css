@@ -50,7 +50,7 @@ form input {
   font-size: 1.6rem;
   font-weight: 500;
   color: #252634;
-  line-height: 2.6rem;
+  /* line-height: 2.6rem; */
   border: 1px solid #FFFFFF;
   padding: 1.8rem 2.1rem;
   outline: none;
@@ -66,13 +66,14 @@ form input {
 .input-div {
   width: 100%;
   /* display: inline; */
-  font-family: 'Montserrat', Arial, sans-serif;
+  position: relative;
+  font-family: "MyCustomFont";
   font-size: 1.6rem;
   font-weight: 500;
   color: #252634;
   line-height: 2.6rem;
   border: 1px solid #E6E8ED;
-  padding: 1.8rem 0 0 0;
+  padding: 0.5rem 0 0 0;
   outline: none;
 }
 
@@ -82,7 +83,7 @@ form input {
 } */
 
 form label+input {
-  padding-top: 5.2rem;
+  padding-top: 4rem;
 }
 
 .tooltip {

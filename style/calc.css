@@ -53,6 +53,10 @@
   text-transform: uppercase;
 }
 
+.gemeinde-wahl {
+  padding: 1rem;
+}
+
 .cCalc {
   display: flex;
   flex-direction: row;
@@ -65,6 +69,7 @@
   margin: auto;
   /* box-shadow: 8px 8px 1px 1px #87745C; */
   border: 10px solid #4D4D4C;
+  position: relative;
 }
 
 .calc-form input:invalid {
@@ -77,6 +82,46 @@
   left: 1rem;
   color: red;
 }
+
+.tax-rate {
+  display: none;
+  position: absolute;
+  top: 45px;
+  left: 20px;
+  width: 80%;
+  border: none;
+  background-color: #FFFFFF;
+  font-family: MyCustomFont;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #252634;
+  outline: none;
+  z-index: 5;
+}
+
+.tax-rate__active {
+  display: block;
+}
+
+.tax-rate>option {
+  background-color: #FFFFFF;
+  /* box-shadow: 0 0 10px 100px #fff inset; */
+}
+
+select option:hover {
+  box-shadow: 0 0 10px 100px #f45252 inset !important;
+  color: black;
+}
+
+select option:checked {
+  box-shadow: 0 0 10px 100px #d6d6d6 inset !important;
+}
+
+/* select option:checked {
+  background: linear-gradient(#d6d6d6, #d6d6d6);
+  background-color: #d6d6d6 !important;
+  color: #000000 !important;
+} */
 
 .cCalc__left {
   font-size: 1.6rem;

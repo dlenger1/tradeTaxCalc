@@ -20,9 +20,14 @@
     <h1 class="calc-title">Gewerbesteuerrechner mit Hebesatz der Gemeinde</h1>
     <div class="cCalc">
       <div class="cCalc__left" id="entries-holder">
+        <div class="gemeinde-wahl">
+          <input type="checkbox" id="gemeinde-check" name="gemeinde">
+          <label for="gemeinde"> Wählen Sie Ihre Gemeinde manuell aus</label>
+        </div>
         <form class="calc-form" action="" id="calc-form__id" autocomplete="off">
-          <label for="Business-income">Gewerbeertrag <span class="">€</span></label>
+          <!-- Gewerbeertrag -->
           <div class="input-div">
+            <label for="Business-income">Gewerbeertrag <span class="">€</span></label>
             <input type="text" name="Business-income" id="Business-income" placeholder="50.000,00">
             <div class="tooltip">
               <img class="exclamation-mark" src="/icons/icons8-exclamation-mark-64.png" alt="" width="20px"
@@ -31,8 +36,23 @@
                 bzw. Körperschaftssteuerrechts erzielt.</span>
             </div>
           </div>
-          <label for="tax-rate">Hebesatz der Gemeinde <span>%</span></label>
-          <div class="input-div"><input type="text" name="tax-rate" id="tax-rate" value="200">
+          <!--Hebesatz der Gemeinde  -->
+          <div class="input-div">
+            <label for="tax-rate">Hebesatz der Gemeinde <span>%</span></label>
+            <input type="text" name="tax-rate" id="tax-rate" value="200">
+            <!-- ---select -->
+            <select id="gemeinde" class="tax-rate" name="cars" onfocus='this.size=4;' onblur='this.size=0;'
+              onchange='this.size=1; this.blur();'>
+              <option value="volvo">Volvo XC90</option>
+              <option value="saab">Saab 95</option>
+              <option value="mercedes">Mercedes SLK</option>
+              <option value="audi">Audi TT</option>
+              <option value="volvo">Volvo XC90</option>
+              <option value="saab">Saab 95</option>
+              <option value="mercedes">Mercedes SLK</option>
+              <option value="audi">Audi TT</option>
+            </select>
+            <!-- end select -->
             <div class="tooltip">
               <img class="exclamation-mark" src="/icons/icons8-exclamation-mark-64.png" alt="" width="20px"
                 height="30px">
@@ -40,8 +60,10 @@
                 bzw. Körperschaftssteuerrechts erzielt.</span>
             </div>
           </div>
-          <label for="additional-amount">Hinzurechnungsbetrag <span>€</span></label>
-          <div class="input-div"><input type="text" name="additional-amount" id="additional-amount" value="0">
+          <!-- Hinzurechnungsbetrag -->
+          <div class="input-div">
+            <label for="additional-amount">Hinzurechnungsbetrag<span>€</span></label>
+            <input type="text" name="additional-amount" id="additional-amount" value="0">
             <div class="tooltip">
               <img class="exclamation-mark" src="/icons/icons8-exclamation-mark-64.png" alt="" width="20px"
                 height="30px">
@@ -49,8 +71,10 @@
                 bzw. Körperschaftssteuerrechts erzielt.</span>
             </div>
           </div>
-          <label for="reduction-amount">Kürzungsbetrag <span>€</span></label>
-          <div class="input-div"><input type="text" name="reduction-amount" id="reduction-amount" value="0">
+          <!-- Kürzungsbetrag -->
+          <div class="input-div">
+            <label for="reduction-amount">Kürzungsbetrag<span>€</span></label>
+            <input type="text" name="reduction-amount" id="reduction-amount" value="0">
             <div class="tooltip">
               <img class="exclamation-mark" src="/icons/icons8-exclamation-mark-64.png" alt="" width="20px"
                 height="30px">
@@ -280,6 +304,7 @@
   </div>
   <!-- </div> -->
   <script src="/js/calculator.js"></script>
+  <script src="/js/options.js"></script>
 </body>
 
 </html>
