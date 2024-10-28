@@ -35,6 +35,10 @@ class Calculator {
     // the calc Div
     this.cCalc = document.getElementById('entries-holder');
     this.calcForm = document.getElementById('calc-form__id');
+    // selection
+    this.selections = document.getElementById('gemeinde');
+    this.checkedMunicipality = document.getElementById('gemeinde-check');
+    // end selection
     this.events();
   }
   // 2.events
@@ -44,6 +48,7 @@ class Calculator {
     //   'click',
     //   this.closeCalcOverlay.bind(this)
     // );
+    window.onload = this.calculateTheTax();
     this.cCalc.addEventListener(
       'keypress',
       (e) => {
@@ -75,6 +80,13 @@ class Calculator {
     this.cCalc.addEventListener('click', (e) => {
       if (e.target.tagName === 'INPUT' && e.target.type == 'radio') {
         this.calculateTheTax();
+      }
+    });
+    this.checkedMunicipality.addEventListener('click', () => {
+      if (this.checkedMunicipality.checked) {
+        this.selections.classList.add('tax-rate__active');
+      } else {
+        this.selections.classList.remove('tax-rate__active');
       }
     });
   }
