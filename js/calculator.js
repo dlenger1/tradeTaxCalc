@@ -36,7 +36,7 @@ class Calculator {
     this.cCalc = document.getElementById('entries-holder');
     this.calcForm = document.getElementById('calc-form__id');
     // selection
-    this.selections = document.getElementById('gemeinde');
+    this.StateSelections = document.getElementById('gemeinde');
     this.checkedMunicipality = document.getElementById('gemeinde-check');
     // end selection
     this.events();
@@ -84,9 +84,13 @@ class Calculator {
     });
     this.checkedMunicipality.addEventListener('click', () => {
       if (this.checkedMunicipality.checked) {
-        this.selections.classList.add('tax-rate__active');
+        this.StateSelections.classList.add('tax-rate__active');
+        this.StateSelections.addEventListener('change', () => {
+          this.taxRat.value = this.StateSelections.value;
+          this.calculateTheTax();
+        });
       } else {
-        this.selections.classList.remove('tax-rate__active');
+        this.StateSelections.classList.remove('tax-rate__active');
       }
     });
   }
