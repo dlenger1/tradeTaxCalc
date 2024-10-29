@@ -1,3 +1,8 @@
+import  states  from '../data/states.json' with {type:'json'};
+import {populateSelectElementArray, removeSelectElement} from './create-remove-html.js';
+// fetch('../data/data.json')
+//   .then((response) => response.json())
+//   .then((json) => console.log(json));
 class Calculator {
   // 1. describe and initiate our object
   constructor() {
@@ -84,6 +89,7 @@ class Calculator {
     });
     this.checkedMunicipality.addEventListener('click', () => {
       if (this.checkedMunicipality.checked) {
+        populateSelectElementArray('gemeinde', states);
         this.StateSelections.classList.add('tax-rate__active');
         this.StateSelections.addEventListener('change', () => {
           this.taxRat.value = this.StateSelections.value;
@@ -91,6 +97,8 @@ class Calculator {
         });
       } else {
         this.StateSelections.classList.remove('tax-rate__active');
+        removeSelectElement('gemeinde')
+
       }
     });
   }

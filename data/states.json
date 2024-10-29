@@ -1,0 +1,2806 @@
+[
+  {
+    "Gemeinde": "Aachen, Stadt",
+    "Gewerbesteuerhebesatz": "475"
+  },
+  {
+    "Gemeinde": "Aalen, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Achern, Stadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Achim, Stadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Ahaus, Stadt",
+    "Gewerbesteuerhebesatz": "416"
+  },
+  {
+    "Gemeinde": "Ahlen, Stadt",
+    "Gewerbesteuerhebesatz": "445"
+  },
+  {
+    "Gemeinde": "Ahrensburg, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Aichach, Stadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Albstadt, Stadt",
+    "Gewerbesteuerhebesatz": "345"
+  },
+  {
+    "Gemeinde": "Alfter",
+    "Gewerbesteuerhebesatz": "550"
+  },
+  {
+    "Gemeinde": "Alsdorf, Stadt",
+    "Gewerbesteuerhebesatz": "495"
+  },
+  {
+    "Gemeinde": "Altenburg, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Amberg",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Andernach, Stadt",
+    "Gewerbesteuerhebesatz": "415"
+  },
+  {
+    "Gemeinde": "Ansbach",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Apolda, Stadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Arnsberg, Stadt",
+    "Gewerbesteuerhebesatz": "459"
+  },
+  {
+    "Gemeinde": "Arnstadt, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Aschaffenburg",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Aschersleben, Stadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Attendorn, Hansestadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Aue-Bad Schlema, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Augsburg",
+    "Gewerbesteuerhebesatz": "470"
+  },
+  {
+    "Gemeinde": "Aurich, Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Backnang, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Bad Harzburg, Stadt",
+    "Gewerbesteuerhebesatz": "480"
+  },
+  {
+    "Gemeinde": "Bad Hersfeld, Kreisstadt",
+    "Gewerbesteuerhebesatz": "415"
+  },
+  {
+    "Gemeinde": "Bad Homburg v. d. Höhe, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Bad Honnef, Stadt",
+    "Gewerbesteuerhebesatz": "428"
+  },
+  {
+    "Gemeinde": "Bad Kissingen, Kreisstadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Bad Kreuznach, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Bad Krozingen, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Bad Mergentheim, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Bad Nauheim, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Bad Neuenahr-Ahrweiler, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Bad Oeynhausen, Stadt",
+    "Gewerbesteuerhebesatz": "432"
+  },
+  {
+    "Gemeinde": "Bad Oldesloe, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Bad Rappenau, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Bad Salzuflen, Stadt",
+    "Gewerbesteuerhebesatz": "445"
+  },
+  {
+    "Gemeinde": "Bad Salzungen,\nStadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Bad Schwartau, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Bad Soden am Taunus, Stadt",
+    "Gewerbesteuerhebesatz": "357"
+  },
+  {
+    "Gemeinde": "Bad Vilbel, Stadt",
+    "Gewerbesteuerhebesatz": "357"
+  },
+  {
+    "Gemeinde": "Bad Waldsee, Stadt",
+    "Gewerbesteuerhebesatz": "340"
+  },
+  {
+    "Gemeinde": "Bad Zwischenahn",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Baden-Baden, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Baesweiler, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Balingen, Stadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Bamberg",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Barsinghausen, Stadt",
+    "Gewerbesteuerhebesatz": "470"
+  },
+  {
+    "Gemeinde": "Baunatal, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Bautzen / Budyšin, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Bayreuth",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Beckum, Stadt",
+    "Gewerbesteuerhebesatz": "425"
+  },
+  {
+    "Gemeinde": "Bedburg, Stadt",
+    "Gewerbesteuerhebesatz": "495"
+  },
+  {
+    "Gemeinde": "Bensheim, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Bergheim, Stadt",
+    "Gewerbesteuerhebesatz": "500"
+  },
+  {
+    "Gemeinde": "Bergisch Gladbach, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Bergkamen, Stadt",
+    "Gewerbesteuerhebesatz": "480"
+  },
+  {
+    "Gemeinde": "Berlin, Stadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Bernau bei Berlin, Stadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Bernburg (Saale), Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Biberach an der Riß, Stadt",
+    "Gewerbesteuerhebesatz": "310"
+  },
+  {
+    "Gemeinde": "Bielefeld, Stadt",
+    "Gewerbesteuerhebesatz": "480"
+  },
+  {
+    "Gemeinde": "Bietigheim-Bissingen, Stadt",
+    "Gewerbesteuerhebesatz": "375"
+  },
+  {
+    "Gemeinde": "Bingen am Rhein, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Bitterfeld-Wolfen, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Blankenfelde-Mahlow",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Blieskastel, Stadt",
+    "Gewerbesteuerhebesatz": "425"
+  },
+  {
+    "Gemeinde": "Böblingen, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Bocholt, Stadt",
+    "Gewerbesteuerhebesatz": "458"
+  },
+  {
+    "Gemeinde": "Bochum, Stadt",
+    "Gewerbesteuerhebesatz": "495"
+  },
+  {
+    "Gemeinde": "Bonn, Stadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Borken, Stadt",
+    "Gewerbesteuerhebesatz": "416"
+  },
+  {
+    "Gemeinde": "Bornheim, Stadt",
+    "Gewerbesteuerhebesatz": "515"
+  },
+  {
+    "Gemeinde": "Bottrop, Stadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Bramsche, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Brandenburg an der Havel, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Braunschweig, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Bremen, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Bremerhaven, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Bretten, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Brilon, Stadt",
+    "Gewerbesteuerhebesatz": "434"
+  },
+  {
+    "Gemeinde": "Bruchköbel, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Bruchsal, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Brühl, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Buchholz in der Nordheide, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Büdingen, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Bühl, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Bünde, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Büren, Stadt",
+    "Gewerbesteuerhebesatz": "418"
+  },
+  {
+    "Gemeinde": "Burg, Stadt",
+    "Gewerbesteuerhebesatz": "389"
+  },
+  {
+    "Gemeinde": "Burgdorf, Stadt",
+    "Gewerbesteuerhebesatz": "470"
+  },
+  {
+    "Gemeinde": "Burgwedel, Stadt",
+    "Gewerbesteuerhebesatz": "435"
+  },
+  {
+    "Gemeinde": "Butzbach, Friedrich-Ludwig-Weidig-Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Buxtehude, Hansestadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Calw, Stadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Castrop-Rauxel, Stadt",
+    "Gewerbesteuerhebesatz": "500"
+  },
+  {
+    "Gemeinde": "Celle, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Chemnitz, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Cloppenburg, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Coburg",
+    "Gewerbesteuerhebesatz": "310"
+  },
+  {
+    "Gemeinde": "Coesfeld, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Coswig, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Cottbus/Chósebuz, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Crailsheim, Stadt",
+    "Gewerbesteuerhebesatz": "375"
+  },
+  {
+    "Gemeinde": "Cuxhaven, Stadt",
+    "Gewerbesteuerhebesatz": "435"
+  },
+  {
+    "Gemeinde": "Dachau, Kreisstadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Darmstadt, Wissenschaftsstadt",
+    "Gewerbesteuerhebesatz": "454"
+  },
+  {
+    "Gemeinde": "Datteln, Stadt",
+    "Gewerbesteuerhebesatz": "480"
+  },
+  {
+    "Gemeinde": "Deggendorf, Kreisstadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Delbrück, Stadt",
+    "Gewerbesteuerhebesatz": "415"
+  },
+  {
+    "Gemeinde": "Delitzsch, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Delmenhorst, Stadt",
+    "Gewerbesteuerhebesatz": "435"
+  },
+  {
+    "Gemeinde": "Dessau-Roßlau, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Detmold, Stadt",
+    "Gewerbesteuerhebesatz": "446"
+  },
+  {
+    "Gemeinde": "Dietzenbach, Kreisstadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Dillenburg, Oranienstadt",
+    "Gewerbesteuerhebesatz": "366"
+  },
+  {
+    "Gemeinde": "Dingolfing, Stadt",
+    "Gewerbesteuerhebesatz": "300"
+  },
+  {
+    "Gemeinde": "Dinslaken, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Ditzingen, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Döbeln, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Donaueschingen, Stadt",
+    "Gewerbesteuerhebesatz": "330"
+  },
+  {
+    "Gemeinde": "Dormagen, Stadt",
+    "Gewerbesteuerhebesatz": "500"
+  },
+  {
+    "Gemeinde": "Dorsten, Stadt",
+    "Gewerbesteuerhebesatz": "505"
+  },
+  {
+    "Gemeinde": "Dortmund, Stadt",
+    "Gewerbesteuerhebesatz": "485"
+  },
+  {
+    "Gemeinde": "Dreieich, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Dresden, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Duderstadt, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Duisburg, Stadt",
+    "Gewerbesteuerhebesatz": "515"
+  },
+  {
+    "Gemeinde": "Dülmen, Stadt",
+    "Gewerbesteuerhebesatz": "435"
+  },
+  {
+    "Gemeinde": "Düren, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Düsseldorf, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Eberswalde, Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Eckernförde, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Edewecht",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Ehingen (Donau), Stadt",
+    "Gewerbesteuerhebesatz": "340"
+  },
+  {
+    "Gemeinde": "Einbeck, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Eisenach, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Eisenhüttenstadt, Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Eisleben, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Eislingen/Fils, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Ellwangen (Jagst), Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Elmshorn, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Elsdorf, Stadt",
+    "Gewerbesteuerhebesatz": "525"
+  },
+  {
+    "Gemeinde": "Emden, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Emmendingen, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Emmerich am Rhein, Stadt",
+    "Gewerbesteuerhebesatz": "425"
+  },
+  {
+    "Gemeinde": "Emsdetten, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Enger, Stadt",
+    "Gewerbesteuerhebesatz": "465"
+  },
+  {
+    "Gemeinde": "Ennepetal, Stadt",
+    "Gewerbesteuerhebesatz": "499"
+  },
+  {
+    "Gemeinde": "Eppingen, Stadt",
+    "Gewerbesteuerhebesatz": "385"
+  },
+  {
+    "Gemeinde": "Erding, Kreisstadt",
+    "Gewerbesteuerhebesatz": "325"
+  },
+  {
+    "Gemeinde": "Erftstadt, Stadt",
+    "Gewerbesteuerhebesatz": "565"
+  },
+  {
+    "Gemeinde": "Erfurt, Stadt",
+    "Gewerbesteuerhebesatz": "470"
+  },
+  {
+    "Gemeinde": "Erkelenz, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Erkrath, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Erlangen",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Eschborn, Stadt",
+    "Gewerbesteuerhebesatz": "330"
+  },
+  {
+    "Gemeinde": "Eschweiler, Stadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Espelkamp, Stadt",
+    "Gewerbesteuerhebesatz": "417"
+  },
+  {
+    "Gemeinde": "Essen, Stadt",
+    "Gewerbesteuerhebesatz": "480"
+  },
+  {
+    "Gemeinde": "Esslingen am Neckar, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Ettlingen, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Euskirchen, Stadt",
+    "Gewerbesteuerhebesatz": "475"
+  },
+  {
+    "Gemeinde": "Falkensee, Stadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Fellbach, Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Filderstadt, Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Flensburg, Stadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Flörsheim am Main, Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Forchheim, Kreisstadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Frankenthal (Pfalz), Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Frankfurt (Oder), Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Frankfurt am Main, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Frechen, Stadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Freiberg, Stadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Freiburg im Breisgau, Stadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Freising, Kreisstadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Freital, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Freudenstadt, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Friedberg (Hessen), Kreisstadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Friedberg, Stadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Friedrichsdorf, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Friedrichshafen, Stadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Friesoythe, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Fröndenberg/Ruhr, Stadt",
+    "Gewerbesteuerhebesatz": "465"
+  },
+  {
+    "Gemeinde": "Fulda, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Fürstenfeldbruck, Kreisstadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Fürstenwalde/Spree, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Fürth",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Gaggenau, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Ganderkesee",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Garbsen, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Gardelegen, Hansestadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Garmisch-Partenkirchen",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Gauting",
+    "Gewerbesteuerhebesatz": "330"
+  },
+  {
+    "Gemeinde": "Geesthacht, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Geestland, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Geilenkirchen, Stadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Geislingen an der Steige, Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Geldern, Stadt",
+    "Gewerbesteuerhebesatz": "418"
+  },
+  {
+    "Gemeinde": "Gelnhausen, Barbarossast., Krst.",
+    "Gewerbesteuerhebesatz": "475"
+  },
+  {
+    "Gemeinde": "Gelsenkirchen, Stadt",
+    "Gewerbesteuerhebesatz": "480"
+  },
+  {
+    "Gemeinde": "Georgsmarienhütte, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Gera, Stadt",
+    "Gewerbesteuerhebesatz": "464"
+  },
+  {
+    "Gemeinde": "Geretsried, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Germering, Kreisstadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Germersheim, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Gersthofen, Kreisstadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Geseke, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Gevelsberg, Stadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Gießen, Universitätsstadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Gifhorn, Stadt",
+    "Gewerbesteuerhebesatz": "425"
+  },
+  {
+    "Gemeinde": "Gladbeck, Stadt",
+    "Gewerbesteuerhebesatz": "495"
+  },
+  {
+    "Gemeinde": "Glauchau, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Goch, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Göppingen, Stadt",
+    "Gewerbesteuerhebesatz": "365"
+  },
+  {
+    "Gemeinde": "Görlitz, Stadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Goslar, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Gotha, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Göttingen, Stadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Greifswald, Hansestadt",
+    "Gewerbesteuerhebesatz": "425"
+  },
+  {
+    "Gemeinde": "Greiz, Stadt",
+    "Gewerbesteuerhebesatz": "434"
+  },
+  {
+    "Gemeinde": "Greven, Stadt",
+    "Gewerbesteuerhebesatz": "455"
+  },
+  {
+    "Gemeinde": "Grevenbroich, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Griesheim, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Grimma, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Gronau (Westf.), Stadt",
+    "Gewerbesteuerhebesatz": "417"
+  },
+  {
+    "Gemeinde": "Groß-Gerau, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Groß-Umstadt, Stadt",
+    "Gewerbesteuerhebesatz": "385"
+  },
+  {
+    "Gemeinde": "Gummersbach, Stadt",
+    "Gewerbesteuerhebesatz": "475"
+  },
+  {
+    "Gemeinde": "Günzburg, Kreisstadt",
+    "Gewerbesteuerhebesatz": "340"
+  },
+  {
+    "Gemeinde": "Güstrow, Stadt",
+    "Gewerbesteuerhebesatz": "381"
+  },
+  {
+    "Gemeinde": "Gütersloh, Stadt",
+    "Gewerbesteuerhebesatz": "414"
+  },
+  {
+    "Gemeinde": "Haan, Stadt",
+    "Gewerbesteuerhebesatz": "421"
+  },
+  {
+    "Gemeinde": "Haar",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Hagen, Stadt",
+    "Gewerbesteuerhebesatz": "520"
+  },
+  {
+    "Gemeinde": "Halberstadt, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Halle (Saale), Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Halle (Westf.), Stadt",
+    "Gewerbesteuerhebesatz": "417"
+  },
+  {
+    "Gemeinde": "Haltern am See, Stadt",
+    "Gewerbesteuerhebesatz": "500"
+  },
+  {
+    "Gemeinde": "Hamburg, Freie und Hansestadt",
+    "Gewerbesteuerhebesatz": "470"
+  },
+  {
+    "Gemeinde": "Hameln, Stadt",
+    "Gewerbesteuerhebesatz": "455"
+  },
+  {
+    "Gemeinde": "Hamm, Stadt",
+    "Gewerbesteuerhebesatz": "465"
+  },
+  {
+    "Gemeinde": "Hamminkeln, Stadt",
+    "Gewerbesteuerhebesatz": "452"
+  },
+  {
+    "Gemeinde": "Hanau, Brüder-Grimm-Stadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Hann. Münden, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Hannover, Landeshauptstadt",
+    "Gewerbesteuerhebesatz": "480"
+  },
+  {
+    "Gemeinde": "Haren (Ems), Stadt",
+    "Gewerbesteuerhebesatz": "330"
+  },
+  {
+    "Gemeinde": "Harsewinkel, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Haßloch",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Hattersheim am Main, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Hattingen, Stadt",
+    "Gewerbesteuerhebesatz": "515"
+  },
+  {
+    "Gemeinde": "Heide, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Heidelberg, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Heidenheim an der Brenz, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Heilbronn, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Heiligenhaus, Stadt",
+    "Gewerbesteuerhebesatz": "475"
+  },
+  {
+    "Gemeinde": "Heinsberg, Stadt",
+    "Gewerbesteuerhebesatz": "431"
+  },
+  {
+    "Gemeinde": "Helmstedt, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Hemer, Stadt",
+    "Gewerbesteuerhebesatz": "480"
+  },
+  {
+    "Gemeinde": "Hennef (Sieg), Stadt",
+    "Gewerbesteuerhebesatz": "500"
+  },
+  {
+    "Gemeinde": "Hennigsdorf, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Henstedt-Ulzburg",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Heppenheim (Bergstraße), Kreisstadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Herborn, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Herdecke, Stadt",
+    "Gewerbesteuerhebesatz": "535"
+  },
+  {
+    "Gemeinde": "Herford, Hansestadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Herne, Stadt",
+    "Gewerbesteuerhebesatz": "500"
+  },
+  {
+    "Gemeinde": "Herrenberg, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Herten, Stadt",
+    "Gewerbesteuerhebesatz": "480"
+  },
+  {
+    "Gemeinde": "Herzogenaurach, Stadt",
+    "Gewerbesteuerhebesatz": "320"
+  },
+  {
+    "Gemeinde": "Herzogenrath, Stadt",
+    "Gewerbesteuerhebesatz": "485"
+  },
+  {
+    "Gemeinde": "Hilden, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Hildesheim, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Hockenheim, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Hof",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Hofheim am Taunus, Kreisstadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Hohen Neuendorf, Stadt",
+    "Gewerbesteuerhebesatz": "325"
+  },
+  {
+    "Gemeinde": "Homburg, Kreisstadt",
+    "Gewerbesteuerhebesatz": "475"
+  },
+  {
+    "Gemeinde": "Horb am Neckar, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Hörstel, Stadt",
+    "Gewerbesteuerhebesatz": "415"
+  },
+  {
+    "Gemeinde": "Höxter, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Hoyerswerda / Wojerecy, Stadt",
+    "Gewerbesteuerhebesatz": "405"
+  },
+  {
+    "Gemeinde": "Hückelhoven, Stadt",
+    "Gewerbesteuerhebesatz": "417"
+  },
+  {
+    "Gemeinde": "Hürth, Stadt",
+    "Gewerbesteuerhebesatz": "480"
+  },
+  {
+    "Gemeinde": "Husum, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Ibbenbüren, Stadt",
+    "Gewerbesteuerhebesatz": "453"
+  },
+  {
+    "Gemeinde": "Idar-Oberstein, Stadt",
+    "Gewerbesteuerhebesatz": "310"
+  },
+  {
+    "Gemeinde": "Idstein, Hochschulstadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Ilmenau, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Ilsede",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Ingelheim am Rhein, Stadt",
+    "Gewerbesteuerhebesatz": "310"
+  },
+  {
+    "Gemeinde": "Ingolstadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Iserlohn, Stadt",
+    "Gewerbesteuerhebesatz": "480"
+  },
+  {
+    "Gemeinde": "Isernhagen",
+    "Gewerbesteuerhebesatz": "415"
+  },
+  {
+    "Gemeinde": "Itzehoe, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Jena, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Jüchen, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Jülich, Stadt",
+    "Gewerbesteuerhebesatz": "513"
+  },
+  {
+    "Gemeinde": "Kaarst, Stadt",
+    "Gewerbesteuerhebesatz": "439"
+  },
+  {
+    "Gemeinde": "Kaiserslautern, Stadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Kaltenkirchen, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Kamen, Stadt",
+    "Gewerbesteuerhebesatz": "470"
+  },
+  {
+    "Gemeinde": "Kamp-Lintfort, Stadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Karben, Stadt",
+    "Gewerbesteuerhebesatz": "357"
+  },
+  {
+    "Gemeinde": "Karlsfeld",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Karlsruhe, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Kassel, documenta-Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Kaufbeuren",
+    "Gewerbesteuerhebesatz": "330"
+  },
+  {
+    "Gemeinde": "Kehl, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Kelkheim (Taunus), Stadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Kempen, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Kempten (Allgäu)",
+    "Gewerbesteuerhebesatz": "387"
+  },
+  {
+    "Gemeinde": "Kerpen, Stadt",
+    "Gewerbesteuerhebesatz": "500"
+  },
+  {
+    "Gemeinde": "Kevelaer, Stadt",
+    "Gewerbesteuerhebesatz": "416"
+  },
+  {
+    "Gemeinde": "Kiel, Landeshauptstadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Kirchheim unter Teck, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Kitzingen, Kreisstadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Kleinmachnow",
+    "Gewerbesteuerhebesatz": "320"
+  },
+  {
+    "Gemeinde": "Kleve, Stadt",
+    "Gewerbesteuerhebesatz": "417"
+  },
+  {
+    "Gemeinde": "Koblenz, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Köln, Stadt",
+    "Gewerbesteuerhebesatz": "475"
+  },
+  {
+    "Gemeinde": "Königs Wusterhausen, Stadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Königsbrunn, Stadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Königswinter, Stadt",
+    "Gewerbesteuerhebesatz": "470"
+  },
+  {
+    "Gemeinde": "Konstanz, Stadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Korbach, Hansestadt, Kreisstadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Kornwestheim, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Korschenbroich, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Köthen (Anhalt), Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Krefeld, Stadt",
+    "Gewerbesteuerhebesatz": "480"
+  },
+  {
+    "Gemeinde": "Kreuztal, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Kulmbach, Kreisstadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Laatzen, Stadt",
+    "Gewerbesteuerhebesatz": "480"
+  },
+  {
+    "Gemeinde": "Lage, Stadt",
+    "Gewerbesteuerhebesatz": "444"
+  },
+  {
+    "Gemeinde": "Lahr/Schwarzwald, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Lampertheim, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Landau in der Pfalz, Stadt",
+    "Gewerbesteuerhebesatz": "412"
+  },
+  {
+    "Gemeinde": "Landsberg am Lech, Kreisstadt",
+    "Gewerbesteuerhebesatz": "340"
+  },
+  {
+    "Gemeinde": "Landshut",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Langen (Hessen), Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Langenfeld (Rheinland), Stadt",
+    "Gewerbesteuerhebesatz": "299"
+  },
+  {
+    "Gemeinde": "Langenhagen, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Lauf a.d.Pegnitz, Stadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Laupheim, Stadt",
+    "Gewerbesteuerhebesatz": "340"
+  },
+  {
+    "Gemeinde": "Leer (Ostfriesland), Stadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Lehrte, Stadt",
+    "Gewerbesteuerhebesatz": "480"
+  },
+  {
+    "Gemeinde": "Leichlingen (Rheinland), Stadt",
+    "Gewerbesteuerhebesatz": "445"
+  },
+  {
+    "Gemeinde": "Leimen, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Leinefelde-Worbis,\nStadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Leinfelden-Echterdingen, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Leipzig, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Lemgo, Stadt",
+    "Gewerbesteuerhebesatz": "435"
+  },
+  {
+    "Gemeinde": "Lengerich, Stadt",
+    "Gewerbesteuerhebesatz": "442"
+  },
+  {
+    "Gemeinde": "Lennestadt, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Leonberg, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Leutkirch im Allgäu, Stadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Leverkusen, Stadt",
+    "Gewerbesteuerhebesatz": "250"
+  },
+  {
+    "Gemeinde": "Lichtenfels, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Limbach-Oberfrohna, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Limburg a.d. Lahn, Kreisstadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Lindau (Bodensee), Kreisstadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Lindlar",
+    "Gewerbesteuerhebesatz": "495"
+  },
+  {
+    "Gemeinde": "Lingen (Ems), Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Lippstadt, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Lohmar, Stadt",
+    "Gewerbesteuerhebesatz": "500"
+  },
+  {
+    "Gemeinde": "Lohne (Oldenburg), Stadt",
+    "Gewerbesteuerhebesatz": "330"
+  },
+  {
+    "Gemeinde": "Löhne, Stadt",
+    "Gewerbesteuerhebesatz": "431"
+  },
+  {
+    "Gemeinde": "Lörrach, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Lübbecke, Stadt",
+    "Gewerbesteuerhebesatz": "417"
+  },
+  {
+    "Gemeinde": "Lübeck, Hansestadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Luckenwalde, Stadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Lüdenscheid, Stadt",
+    "Gewerbesteuerhebesatz": "499"
+  },
+  {
+    "Gemeinde": "Lüdinghausen, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Ludwigsburg, Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Ludwigsfelde, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Ludwigshafen am Rhein, Stadt",
+    "Gewerbesteuerhebesatz": "425"
+  },
+  {
+    "Gemeinde": "Lüneburg, Hansestadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Lünen, Stadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Magdeburg, Landeshauptstadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Maintal, Stadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Mainz, Stadt",
+    "Gewerbesteuerhebesatz": "310"
+  },
+  {
+    "Gemeinde": "Mannheim, Stadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Marburg, Universitätsstadt",
+    "Gewerbesteuerhebesatz": "357"
+  },
+  {
+    "Gemeinde": "Markkleeberg, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Marl, Stadt",
+    "Gewerbesteuerhebesatz": "530"
+  },
+  {
+    "Gemeinde": "Mechernich, Stadt",
+    "Gewerbesteuerhebesatz": "498"
+  },
+  {
+    "Gemeinde": "Meckenheim, Stadt",
+    "Gewerbesteuerhebesatz": "510"
+  },
+  {
+    "Gemeinde": "Meerbusch, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Meinerzhagen, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Meiningen, Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Meißen, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Melle, Stadt",
+    "Gewerbesteuerhebesatz": "385"
+  },
+  {
+    "Gemeinde": "Memmingen",
+    "Gewerbesteuerhebesatz": "330"
+  },
+  {
+    "Gemeinde": "Menden (Sauerland), Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Meppen, Stadt",
+    "Gewerbesteuerhebesatz": "345"
+  },
+  {
+    "Gemeinde": "Merseburg, Stadt",
+    "Gewerbesteuerhebesatz": "404"
+  },
+  {
+    "Gemeinde": "Merzig, Kreisstadt",
+    "Gewerbesteuerhebesatz": "425"
+  },
+  {
+    "Gemeinde": "Meschede, Stadt",
+    "Gewerbesteuerhebesatz": "435"
+  },
+  {
+    "Gemeinde": "Mettmann, Stadt",
+    "Gewerbesteuerhebesatz": "435"
+  },
+  {
+    "Gemeinde": "Metzingen, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Minden, Stadt",
+    "Gewerbesteuerhebesatz": "447"
+  },
+  {
+    "Gemeinde": "Moers, Stadt",
+    "Gewerbesteuerhebesatz": "480"
+  },
+  {
+    "Gemeinde": "Mönchengladbach, Stadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Monheim am Rhein, Stadt",
+    "Gewerbesteuerhebesatz": "250"
+  },
+  {
+    "Gemeinde": "Moormerland",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Mörfelden-Walldorf, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Mosbach, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Mössingen, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Mühlacker, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Mühldorf a.Inn, Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Mühlhausen/\nThüringen, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Mühlheim am Main, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Mülheim an der Ruhr, Stadt",
+    "Gewerbesteuerhebesatz": "580"
+  },
+  {
+    "Gemeinde": "München, Landeshauptstadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Münster, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Nagold, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Naumburg (Saale), Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Neckarsulm, Stadt",
+    "Gewerbesteuerhebesatz": "340"
+  },
+  {
+    "Gemeinde": "Netphen, Stadt",
+    "Gewerbesteuerhebesatz": "475"
+  },
+  {
+    "Gemeinde": "Nettetal, Stadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Neu Wulmstorf",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Neu-Isenburg, Stadt",
+    "Gewerbesteuerhebesatz": "330"
+  },
+  {
+    "Gemeinde": "Neu-Ulm, Kreisstadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Neubrandenburg, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Neuburg a.d.Donau, Kreisstadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Neufahrn b. Freising",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Neukirchen-Vluyn, Stadt",
+    "Gewerbesteuerhebesatz": "495"
+  },
+  {
+    "Gemeinde": "Neumarkt i.d.OPf., Kreisstadt",
+    "Gewerbesteuerhebesatz": "315"
+  },
+  {
+    "Gemeinde": "Neumünster, Stadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Neunkirchen, Kreisstadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Neuruppin, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Neusäß, Stadt",
+    "Gewerbesteuerhebesatz": "340"
+  },
+  {
+    "Gemeinde": "Neuss, Stadt",
+    "Gewerbesteuerhebesatz": "455"
+  },
+  {
+    "Gemeinde": "Neustadt am Rübenberge, Stadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Neustadt an der Weinstraße, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Neustrelitz, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Neuwied, Stadt",
+    "Gewerbesteuerhebesatz": "405"
+  },
+  {
+    "Gemeinde": "Nidderau, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Niederkassel, Stadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Nienburg (Weser), Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Norden, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Nordenham, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Norderstedt, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Nordhausen, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Nordhorn, Stadt",
+    "Gewerbesteuerhebesatz": "375"
+  },
+  {
+    "Gemeinde": "Nördlingen, Kreisstadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Northeim, Stadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Nürnberg",
+    "Gewerbesteuerhebesatz": "467"
+  },
+  {
+    "Gemeinde": "Nürtingen, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Oberhausen, Stadt",
+    "Gewerbesteuerhebesatz": "580"
+  },
+  {
+    "Gemeinde": "Obertshausen, Stadt",
+    "Gewerbesteuerhebesatz": "372"
+  },
+  {
+    "Gemeinde": "Oberursel (Taunus), Stadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Oelde, Stadt",
+    "Gewerbesteuerhebesatz": "412"
+  },
+  {
+    "Gemeinde": "Oer-Erkenschwick, Stadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Offenbach am Main, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Offenburg, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Öhringen, Stadt",
+    "Gewerbesteuerhebesatz": "375"
+  },
+  {
+    "Gemeinde": "Olching, Stadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Oldenburg (Oldenburg), Stadt",
+    "Gewerbesteuerhebesatz": "439"
+  },
+  {
+    "Gemeinde": "Olpe, Stadt",
+    "Gewerbesteuerhebesatz": "435"
+  },
+  {
+    "Gemeinde": "Oranienburg, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Osnabrück, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Osterholz-Scharmbeck, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Osterode am Harz, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Ostfildern, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Ottobrunn",
+    "Gewerbesteuerhebesatz": "340"
+  },
+  {
+    "Gemeinde": "Overath, Stadt",
+    "Gewerbesteuerhebesatz": "465"
+  },
+  {
+    "Gemeinde": "Paderborn, Stadt",
+    "Gewerbesteuerhebesatz": "418"
+  },
+  {
+    "Gemeinde": "Panketal",
+    "Gewerbesteuerhebesatz": "300"
+  },
+  {
+    "Gemeinde": "Papenburg, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Passau",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Peine, Stadt",
+    "Gewerbesteuerhebesatz": "435"
+  },
+  {
+    "Gemeinde": "Petershagen, Stadt",
+    "Gewerbesteuerhebesatz": "423"
+  },
+  {
+    "Gemeinde": "Pfaffenhofen a.d.Ilm, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Pforzheim, Stadt",
+    "Gewerbesteuerhebesatz": "445"
+  },
+  {
+    "Gemeinde": "Pfungstadt, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Pinneberg, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Pirmasens, Stadt",
+    "Gewerbesteuerhebesatz": "415"
+  },
+  {
+    "Gemeinde": "Pirna, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Plauen, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Plettenberg, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Porta Westfalica, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Potsdam, Stadt",
+    "Gewerbesteuerhebesatz": "455"
+  },
+  {
+    "Gemeinde": "Puchheim, Stadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Pulheim, Stadt",
+    "Gewerbesteuerhebesatz": "475"
+  },
+  {
+    "Gemeinde": "Quedlinburg, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Quickborn, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Radebeul, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Radevormwald, Stadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Radolfzell am Bodensee, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Rastatt, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Rastede",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Rathenow, Stadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Ratingen, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Ravensburg, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Recklinghausen, Stadt",
+    "Gewerbesteuerhebesatz": "520"
+  },
+  {
+    "Gemeinde": "Rees, Stadt",
+    "Gewerbesteuerhebesatz": "416"
+  },
+  {
+    "Gemeinde": "Regensburg",
+    "Gewerbesteuerhebesatz": "425"
+  },
+  {
+    "Gemeinde": "Reichenbach im Vogtland, Stadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Reinbek, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Remscheid, Stadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Remseck am Neckar, Stadt",
+    "Gewerbesteuerhebesatz": "385"
+  },
+  {
+    "Gemeinde": "Rendsburg, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Reutlingen, Stadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Rheda-Wiedenbrück, Stadt",
+    "Gewerbesteuerhebesatz": "416"
+  },
+  {
+    "Gemeinde": "Rheinbach, Stadt",
+    "Gewerbesteuerhebesatz": "531"
+  },
+  {
+    "Gemeinde": "Rheinberg, Stadt",
+    "Gewerbesteuerhebesatz": "510"
+  },
+  {
+    "Gemeinde": "Rheine, Stadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Rheinfelden (Baden), Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Rheinstetten, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Riedstadt, Büchnerstadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Riesa, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Rietberg, Stadt",
+    "Gewerbesteuerhebesatz": "414"
+  },
+  {
+    "Gemeinde": "Rinteln, Stadt",
+    "Gewerbesteuerhebesatz": "405"
+  },
+  {
+    "Gemeinde": "Rödermark, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Rodgau, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Ronnenberg, Stadt",
+    "Gewerbesteuerhebesatz": "470"
+  },
+  {
+    "Gemeinde": "Rosenheim",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Rösrath, Stadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Rostock, Hansestadt",
+    "Gewerbesteuerhebesatz": "465"
+  },
+  {
+    "Gemeinde": "Rotenburg (Wümme), Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Roth, Stadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Rottenburg am Neckar, Stadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Rottweil, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Rudolstadt, Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Rüsselsheim am Main, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Saalfeld/Saale,\nStadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Saarbrücken, Landeshauptstadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Saarlouis, Kreisstadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Salzgitter, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Salzkotten, Stadt",
+    "Gewerbesteuerhebesatz": "418"
+  },
+  {
+    "Gemeinde": "Salzwedel, Hansestadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Sangerhausen, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Sankt Augustin, Stadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Schifferstadt, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Schleswig, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Schloß Holte-Stukenbrock, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Schmallenberg, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Schönebeck (Elbe), Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Schorndorf, Stadt",
+    "Gewerbesteuerhebesatz": "405"
+  },
+  {
+    "Gemeinde": "Schortens, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Schramberg, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Schwabach",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Schwäbisch Gmünd, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Schwäbisch Hall, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Schwandorf, Kreisstadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Schwanewede",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Schwedt/Oder, Stadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Schweinfurt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Schwelm, Stadt",
+    "Gewerbesteuerhebesatz": "495"
+  },
+  {
+    "Gemeinde": "Schwerin, Landeshauptstadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Schwerte, Hansestadt an der Ruhr",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Schwetzingen, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Seelze, Stadt",
+    "Gewerbesteuerhebesatz": "480"
+  },
+  {
+    "Gemeinde": "Seevetal",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Sehnde, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Seligenstadt, Stadt",
+    "Gewerbesteuerhebesatz": "357"
+  },
+  {
+    "Gemeinde": "Selm, Stadt",
+    "Gewerbesteuerhebesatz": "485"
+  },
+  {
+    "Gemeinde": "Senden",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Senden, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Senftenberg/Zly Komorow, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Siegburg, Stadt",
+    "Gewerbesteuerhebesatz": "515"
+  },
+  {
+    "Gemeinde": "Siegen, Stadt",
+    "Gewerbesteuerhebesatz": "495"
+  },
+  {
+    "Gemeinde": "Sindelfingen, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Singen (Hohentwiel), Stadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Sinsheim, Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Soest, Stadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Solingen, Stadt",
+    "Gewerbesteuerhebesatz": "475"
+  },
+  {
+    "Gemeinde": "Soltau, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Sondershausen,\nStadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Sonneberg, Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Sonthofen, St",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Speyer, Stadt",
+    "Gewerbesteuerhebesatz": "415"
+  },
+  {
+    "Gemeinde": "Spremberg/Grodk, Stadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Springe, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Sprockhövel, Stadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "St. Ingbert, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "St. Wendel, Kreisstadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Stade, Hansestadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Stadtallendorf, Stadt",
+    "Gewerbesteuerhebesatz": "357"
+  },
+  {
+    "Gemeinde": "Stadthagen, Stadt",
+    "Gewerbesteuerhebesatz": "405"
+  },
+  {
+    "Gemeinde": "Stadtlohn, Stadt",
+    "Gewerbesteuerhebesatz": "418"
+  },
+  {
+    "Gemeinde": "Starnberg, St",
+    "Gewerbesteuerhebesatz": "330"
+  },
+  {
+    "Gemeinde": "Staßfurt, Stadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Steinfurt, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Steinhagen",
+    "Gewerbesteuerhebesatz": "414"
+  },
+  {
+    "Gemeinde": "Stendal, Hansestadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Stolberg (Rhld.), Stadt",
+    "Gewerbesteuerhebesatz": "495"
+  },
+  {
+    "Gemeinde": "Stralsund, Hansestadt",
+    "Gewerbesteuerhebesatz": "445"
+  },
+  {
+    "Gemeinde": "Straubing",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Strausberg, Stadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Stuhr",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Stutensee, Stadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Stuttgart, Landeshauptstadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Suhl, Stadt",
+    "Gewerbesteuerhebesatz": "424"
+  },
+  {
+    "Gemeinde": "Sundern (Sauerland), Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Syke, Stadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Taunusstein, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Teltow, Stadt",
+    "Gewerbesteuerhebesatz": "320"
+  },
+  {
+    "Gemeinde": "Tönisvorst, Stadt",
+    "Gewerbesteuerhebesatz": "485"
+  },
+  {
+    "Gemeinde": "Traunreut, Stadt",
+    "Gewerbesteuerhebesatz": "340"
+  },
+  {
+    "Gemeinde": "Traunstein, Kreisstadt",
+    "Gewerbesteuerhebesatz": "375"
+  },
+  {
+    "Gemeinde": "Trier, Stadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Troisdorf, Stadt",
+    "Gewerbesteuerhebesatz": "500"
+  },
+  {
+    "Gemeinde": "Tübingen, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Tuttlingen, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Übach-Palenberg, Stadt",
+    "Gewerbesteuerhebesatz": "475"
+  },
+  {
+    "Gemeinde": "Überlingen, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Uelzen, Hansestadt",
+    "Gewerbesteuerhebesatz": "435"
+  },
+  {
+    "Gemeinde": "Uetze",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Ulm, Stadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Unna, Stadt",
+    "Gewerbesteuerhebesatz": "481"
+  },
+  {
+    "Gemeinde": "Unterhaching",
+    "Gewerbesteuerhebesatz": "295"
+  },
+  {
+    "Gemeinde": "Unterschleißheim, Stadt",
+    "Gewerbesteuerhebesatz": "330"
+  },
+  {
+    "Gemeinde": "Vaihingen an der Enz, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Varel, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Vaterstetten",
+    "Gewerbesteuerhebesatz": "320"
+  },
+  {
+    "Gemeinde": "Vechta, Stadt",
+    "Gewerbesteuerhebesatz": "320"
+  },
+  {
+    "Gemeinde": "Velbert, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Verden (Aller), Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Verl, Stadt",
+    "Gewerbesteuerhebesatz": "355"
+  },
+  {
+    "Gemeinde": "Versmold, Stadt",
+    "Gewerbesteuerhebesatz": "414"
+  },
+  {
+    "Gemeinde": "Viernheim, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Viersen, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Villingen-Schwenningen, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Voerde (Niederrhein), Stadt",
+    "Gewerbesteuerhebesatz": "470"
+  },
+  {
+    "Gemeinde": "Völklingen, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Vreden, Stadt",
+    "Gewerbesteuerhebesatz": "416"
+  },
+  {
+    "Gemeinde": "Wachtberg",
+    "Gewerbesteuerhebesatz": "520"
+  },
+  {
+    "Gemeinde": "Waghäusel, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Waiblingen, Stadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Waldkirch, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Waldkraiburg, Stadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Waldshut-Tiengen, Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Wallenhorst",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Walsrode, Stadt",
+    "Gewerbesteuerhebesatz": "410"
+  },
+  {
+    "Gemeinde": "Waltrop, Stadt",
+    "Gewerbesteuerhebesatz": "495"
+  },
+  {
+    "Gemeinde": "Wandlitz",
+    "Gewerbesteuerhebesatz": "320"
+  },
+  {
+    "Gemeinde": "Wangen im Allgäu, Stadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Warburg, Hansestadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Waren (Müritz), Stadt",
+    "Gewerbesteuerhebesatz": "320"
+  },
+  {
+    "Gemeinde": "Warendorf, Stadt",
+    "Gewerbesteuerhebesatz": "427"
+  },
+  {
+    "Gemeinde": "Warstein, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Wedel, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Wedemark",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Wegberg, Stadt",
+    "Gewerbesteuerhebesatz": "433"
+  },
+  {
+    "Gemeinde": "Weiden i.d.OPf.",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Weil am Rhein, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Weilheim i.OB, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Weimar, Stadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Weingarten, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Weinheim, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Weinstadt, Stadt",
+    "Gewerbesteuerhebesatz": "385"
+  },
+  {
+    "Gemeinde": "Weißenfels, Stadt",
+    "Gewerbesteuerhebesatz": "350"
+  },
+  {
+    "Gemeinde": "Weiterstadt, Stadt",
+    "Gewerbesteuerhebesatz": "375"
+  },
+  {
+    "Gemeinde": "Werdau, Stadt",
+    "Gewerbesteuerhebesatz": "405"
+  },
+  {
+    "Gemeinde": "Werder (Havel), Stadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Werl, Stadt",
+    "Gewerbesteuerhebesatz": "437"
+  },
+  {
+    "Gemeinde": "Wermelskirchen, Stadt",
+    "Gewerbesteuerhebesatz": "480"
+  },
+  {
+    "Gemeinde": "Werne, Stadt",
+    "Gewerbesteuerhebesatz": "446"
+  },
+  {
+    "Gemeinde": "Wernigerode, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Wertheim, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Wesel, Stadt",
+    "Gewerbesteuerhebesatz": "448"
+  },
+  {
+    "Gemeinde": "Wesseling, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Westerstede, Stadt",
+    "Gewerbesteuerhebesatz": "340"
+  },
+  {
+    "Gemeinde": "Westoverledingen",
+    "Gewerbesteuerhebesatz": "330"
+  },
+  {
+    "Gemeinde": "Wetter (Ruhr), Stadt",
+    "Gewerbesteuerhebesatz": "500"
+  },
+  {
+    "Gemeinde": "Wetzlar, Stadt",
+    "Gewerbesteuerhebesatz": "390"
+  },
+  {
+    "Gemeinde": "Weyhe",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Wiehl, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Wiesbaden, Landeshauptstadt",
+    "Gewerbesteuerhebesatz": "454"
+  },
+  {
+    "Gemeinde": "Wiesloch, Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Wildeshausen, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Wilhelmshaven, Stadt",
+    "Gewerbesteuerhebesatz": "400"
+  },
+  {
+    "Gemeinde": "Willich, Stadt",
+    "Gewerbesteuerhebesatz": "434"
+  },
+  {
+    "Gemeinde": "Winnenden, Stadt",
+    "Gewerbesteuerhebesatz": "370"
+  },
+  {
+    "Gemeinde": "Winsen (Luhe), Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Wipperfürth, Hansestadt",
+    "Gewerbesteuerhebesatz": "470"
+  },
+  {
+    "Gemeinde": "Wismar, Hansestadt",
+    "Gewerbesteuerhebesatz": "450"
+  },
+  {
+    "Gemeinde": "Witten, Stadt",
+    "Gewerbesteuerhebesatz": "520"
+  },
+  {
+    "Gemeinde": "Wittenberg, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Wittmund, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Wolfenbüttel, Stadt",
+    "Gewerbesteuerhebesatz": "430"
+  },
+  {
+    "Gemeinde": "Wolfsburg, Stadt",
+    "Gewerbesteuerhebesatz": "360"
+  },
+  {
+    "Gemeinde": "Worms, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Wülfrath, Stadt",
+    "Gewerbesteuerhebesatz": "440"
+  },
+  {
+    "Gemeinde": "Wunstorf, Stadt",
+    "Gewerbesteuerhebesatz": "460"
+  },
+  {
+    "Gemeinde": "Wuppertal, Stadt",
+    "Gewerbesteuerhebesatz": "490"
+  },
+  {
+    "Gemeinde": "Würselen, Stadt",
+    "Gewerbesteuerhebesatz": "495"
+  },
+  {
+    "Gemeinde": "Würzburg",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Xanten, Stadt",
+    "Gewerbesteuerhebesatz": "495"
+  },
+  {
+    "Gemeinde": "Zeitz, Stadt",
+    "Gewerbesteuerhebesatz": "395"
+  },
+  {
+    "Gemeinde": "Zerbst/Anhalt, Stadt",
+    "Gewerbesteuerhebesatz": "380"
+  },
+  {
+    "Gemeinde": "Zirndorf, Stadt",
+    "Gewerbesteuerhebesatz": "300"
+  },
+  {
+    "Gemeinde": "Zittau, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Zossen, Stadt",
+    "Gewerbesteuerhebesatz": "270"
+  },
+  {
+    "Gemeinde": "Zülpich, Stadt",
+    "Gewerbesteuerhebesatz": "475"
+  },
+  {
+    "Gemeinde": "Zweibrücken, Stadt",
+    "Gewerbesteuerhebesatz": "420"
+  },
+  {
+    "Gemeinde": "Zwickau, Stadt",
+    "Gewerbesteuerhebesatz": "450"
+  }
+]
