@@ -103,3 +103,21 @@ form label+input {
   display: inline-block;
   width: 20rem;
 }
+
+.select2-container {
+  display: block !important;
+  position: absolute !important;
+  width: 80% !important;
+  top: 4.4rem;
+  left: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #f45252 !important;
+}
+
+.select2-container--default .select2-selection--single {
+  border: none !important;
+}

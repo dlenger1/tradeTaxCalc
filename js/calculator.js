@@ -57,7 +57,8 @@ class Calculator {
     this.cCalc.addEventListener(
       'keypress',
       (e) => {
-        if (e.target.tagName === 'INPUT' && e.target.type == 'text') {
+        console.log(e.target.id);     
+        if (e.target.tagName === 'INPUT' && e.target.type == 'text' && e.target.id !=='gemeinde') {
           if (
             e.ctrlKey ||
             e.altKey ||
@@ -90,19 +91,25 @@ class Calculator {
     this.checkedMunicipality.addEventListener('click', () => {
       if (this.checkedMunicipality.checked) {
         populateSelectElementArray('gemeinde', states);
-        this.StateSelections.classList.add('tax-rate__active');
-        this.StateSelections.addEventListener('change', () => {
-          this.taxRat.value = this.StateSelections.value;
+        $('#gemeinde').select2();
+        $('#gemeinde').on('select2:select',  (e) => {
+          var data = e.params.data.id;
+          this.taxRat.value = data;
           this.calculateTheTax();
-        });
+});
+        // this.StateSelections.classList.add('tax-rate__active');
+        // this.StateSelections.addEventListener('change', () => {
+        //   this.taxRat.value = this.StateSelections.value;
+        //   this.calculateTheTax();
+        // });
       } else {
+        $('#gemeinde').select2('destroy');
+        $('#gemeinde').off('select2:select');
         this.StateSelections.classList.remove('tax-rate__active');
         removeSelectElement('gemeinde')
-
       }
     });
   }
-
   //3. Methods
   // openCalcOverlay() {
   //   this.calcOverlay[0].classList.add('calculator-overlay--active');
