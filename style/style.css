@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "MyCustomFont";
-  src: url(/fonts/3B0667_2_0.woff2);
+  src: url(./fonts/3B0667_2_0.woff2);
 }
 
 :root {
