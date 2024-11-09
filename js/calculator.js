@@ -105,7 +105,7 @@ class Calculator {
       } else {
         $('#gemeinde').select2('destroy');
         $('#gemeinde').off('select2:select');
-        this.StateSelections.classList.remove('tax-rate__active');
+        //this.StateSelections.classList.remove('tax-rate__active');
         removeSelectElement('gemeinde')
       }
     });

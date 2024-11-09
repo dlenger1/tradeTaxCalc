@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 @font-face {
   font-family: "MyCustomFont";
   src: url(https://barry786-dev.github.io/tradeTaxCalc/fonts/3B0667_2_0.woff2) format('woff2');
@@ -9,6 +5,33 @@
 
 :root {
   font-size: 62.5%;
+  --background-color-bright1: #FFFFFF;
+  /*body-inputBorders-selectBakGr*/
+  --background-color-bright2: #E6E8ED;
+  /*divInputBorders*/
+  --background-color-bright3: #f6f6f6;
+  /*calcRight*/
+  --background-color-options1: #f45252;
+  /*selectOptions*/
+
+  --labels-color-1: #868F9E;
+  /*form labels*/
+  --paragraph-color-1: #252634;
+  /*inputText-selectText*/
+  --paragraph-color-2: #333333;
+  /*text - tooltip*/
+  --header-color-1: #424253;
+  /*h1*/
+  --header-color-2: #4B6279;
+  --border-color1: #4D4D4C;
+  /*form - infoText*/
+  --invalid-border1: red;
+  --invalid-color1: red;
+  --list-marks-color1: rgb(11, 8, 9);
+}
+
+* {
+  box-sizing: border-box;
 }
 
 html,
@@ -18,7 +41,7 @@ body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
-  background-color: #FFFFFF;
+  background-color: var(--background-color-bright1);
   font-family: "MyCustomFont";
 }
 
@@ -41,7 +64,7 @@ form label {
   font-size: 1.6rem;
   line-height: 2.4rem;
   font-weight: 400;
-  color: #868F9E;
+  color: var(--labels-color-1);
 }
 
 form input {
@@ -51,7 +74,7 @@ form input {
   font-weight: 500;
   color: #252634;
   /* line-height: 2.6rem; */
-  border: 1px solid #FFFFFF;
+  border: 1px solid var(--background-color-bright1);
   padding: 1.8rem 2.1rem;
   outline: none;
   display: inline;
@@ -70,9 +93,9 @@ form input {
   font-family: "MyCustomFont";
   font-size: 1.6rem;
   font-weight: 500;
-  color: #252634;
+  color: var(--paragraph-color-1);
   line-height: 2.6rem;
-  border: 1px solid #E6E8ED;
+  border: 1px solid var(--background-color-bright2);
   padding: 0.5rem 0 0 0;
   outline: none;
 }
@@ -93,8 +116,8 @@ form label+input {
 .tooltip-text {
   display: none;
   position: absolute;
-  background: #fff;
-  color: #333;
+  background: var(--background-color-bright1);
+  color: var(--paragraph-color-2);
   padding: 1rem;
   word-wrap: break-word;
 }
@@ -115,7 +138,7 @@ form label+input {
 }
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-  background-color: #f45252 !important;
+  background-color: var(--background-color-options1) !important;
 }
 
 .select2-container--default .select2-selection--single {

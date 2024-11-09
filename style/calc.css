@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* .calculator-overlay {
   overflow-y: auto;
   overflow-x: hidden;
@@ -32,7 +39,12 @@
 } */
 
 .calculator-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   margin: auto;
   width: 70%;
@@ -46,7 +58,7 @@
   /* font-family: "Swiss721BT Condensed",
     "Helvetica Neue Condensed",
     sans-serif; */
-  color: #424253;
+  color: var(--header-color-1);
   font-weight: bold;
   padding: 2rem;
   text-align: center;
@@ -58,43 +70,53 @@
 }
 
 .cCalc {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .calc-form {
   margin: auto;
   /* box-shadow: 8px 8px 1px 1px #87745C; */
-  border: 10px solid #4D4D4C;
+  border: 10px solid var(--border-color1);
   position: relative;
 }
 
 .calc-form input:invalid {
-  border: red solid 3px;
+  border: var(--invalid-border1) solid 3px;
 }
 
 .calc-form label span {
   position: relative;
   top: 0.2rem;
   left: 1rem;
-  color: red;
+  color: var(--invalid-color1);
 }
 
-.tax-rate {
+.tax-rate__select {
   display: none;
   position: absolute;
   top: 45px;
   left: 20px;
   width: 80%;
   border: none;
-  background-color: #FFFFFF;
+  background-color: var(--background-color-bright1);
   font-family: MyCustomFont;
   font-weight: 300;
   font-size: 1.5rem;
-  color: #252634;
+  color: var(--paragraph-color-1);
   outline: none;
   z-index: 5;
 }
@@ -104,16 +126,18 @@
 }
 
 .tax-rate>option {
-  background-color: #FFFFFF;
+  background-color: --background-color-bright1;
   /* box-shadow: 0 0 10px 100px #fff inset; */
 }
 
 select option:hover {
-  box-shadow: 0 0 10px 100px #f45252 inset !important;
-  color: black;
+  -webkit-box-shadow: 0 0 10px 100px var(--background-color-options1) inset !important;
+  box-shadow: 0 0 10px 100px var(--background-color-options1) inset !important;
+  color: var(--paragraph-color-2);
 }
 
 select option:checked {
+  -webkit-box-shadow: 0 0 10px 100px #d6d6d6 inset !important;
   box-shadow: 0 0 10px 100px #d6d6d6 inset !important;
 }
 
@@ -129,12 +153,18 @@ select option:checked {
 }
 
 .cCalc__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
-  background-color: #f6f6f6;
+  background-color: var(--background-color-bright3);
   margin-left: 4rem;
   padding: 0 1.6rem 1.6rem 1.6rem;
   /* box-shadow: 6px 6px 3px 1px #e32a05 inset; */
+  -webkit-box-shadow: 0px 0px 0px 5px #e32a05;
   box-shadow: 0px 0px 0px 5px #e32a05;
 }
 
@@ -143,6 +173,8 @@ select option:checked {
 }
 
 .cCalc__right hr {
+  -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
   align-self: stretch;
   margin: 0;
 }
@@ -158,16 +190,27 @@ select option:checked {
 }
 
 .cCalcSection__groups {
+  display: -ms-grid;
   display: grid;
   row-gap: 2.2rem;
 }
 
 .cFormResult {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-line-pack: center;
   align-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-column-gap: 0.5rem;
+  -moz-column-gap: 0.5rem;
   column-gap: 0.5rem;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   font-size: 1.6rem;
 }
@@ -177,13 +220,13 @@ select option:checked {
 }
 
 .span-err {
-  color: red;
+  color: var(--invalid-color1);
   font-weight: bold;
 }
 
 .cCalc__info {
   font-size: 1.6rem;
-  color: #4d4d4c;
+  color: var(--border-color1);
 }
 
 .cCalc__info h3 {
@@ -196,7 +239,7 @@ select option:checked {
   padding-left: 2rem;
   font-size: 1.7rem;
   line-height: 2.6rem;
-  color: #4d4d4c;
+  color: var(--border-color1);
   /* font-family: 'Franziska, Georgia, Cambria'; */
 }
 
@@ -214,6 +257,8 @@ select option:checked {
   left: 0;
   list-style: none;
   margin: 1rem 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
   cursor: pointer;
   line-height: 2.5rem;
@@ -225,16 +270,24 @@ select option:checked {
 
 .cCalc__info ul li:before {
   content: "• ";
-  color: rgb(11, 8, 9);
+  color: var(--list-marks-color1);
   font-size: 2rem;
   width: 100%;
   height: 100%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
   transform: scaleX(0);
+  -webkit-transform-origin: left;
+  -ms-transform-origin: left;
   transform-origin: left;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 
 .cCalc__info ul li:hover:before {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
   transform: scaleX(1);
 }
 
@@ -256,25 +309,26 @@ input[type=radio] {
 .card *:after {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 .card {
   /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
   font-size: 1em;
-  background: #fff;
+  background: var(--background-color-bright1);
   text-align: center;
   /* width: 30rem; */
   height: 27rem;
   margin: 3rem auto 1rem auto;
   /* box-shadow: 8px 8px 1px 1px #87745C; */
-  border: 10px solid #4D4D4C;
+  border: 10px solid var(--border-color1);
 }
 
 .card h2 {
   position: relative;
   padding-top: 3rem;
-  color: #4B6279;
+  color: var(--header-color-2);
 }
 
 .card ul {
@@ -299,28 +353,45 @@ input[type=radio] {
   opacity: 0.2;
   display: inline-block;
   position: absolute;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
   transform: scale(1);
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
 .card input[type=radio]:checked+label .inner:before {
   opacity: 1;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
   transform: scale(1.5);
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 
 .card input[type=radio]:focus+label .outer .inner:before {
   opacity: 1;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
   transform: scale(1.5);
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  -o-transition-delay: 0.75s;
   transition-delay: 0.75s;
   -webkit-transition-delay: 0.75s;
 }
 
 .card input[type=radio]:focus+label .outer {
+  -webkit-transform: translate(0.09em, 0.09em);
+  -ms-transform: translate(0.09em, 0.09em);
   transform: translate(0.09em, 0.09em);
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(200, 200, 200, 0.1);
   box-shadow: 0px 0px 0px 0px rgba(200, 200, 200, 0.1);
-  border: 3px solid #4B6279;
+  border: 3px solid var(--header-color-2);
+  -o-transition-delay: 0.75s;
   transition-delay: 0.75s;
   -webkit-transition-delay: 0.75s;
   animation: boom 1s ease-out;
@@ -330,11 +401,14 @@ input[type=radio] {
 }
 
 .card input[type=radio]:focus+label .inlet .text__effect {
+  -webkit-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  -o-transition-delay: 0.75s;
   transition-delay: 0.75s;
   -webkit-transition-delay: 0.75s;
-  color: #4B6279;
-  border-bottom: 1px solid #4B6279;
+  color: var(--header-color-2);
+  border-bottom: 1px solid var(--header-color-2);
 }
 
 .card input[type=radio]+label .inlet .text__effect {
@@ -343,8 +417,11 @@ input[type=radio] {
 
 .card input[type=radio]:focus+label .outer .inner:after {
   opacity: 1;
+  -ms-transform: translate(14rem, -15rem) scale(0.01);
   transform: translate(14rem, -15rem) scale(0.01);
   -webkit-transform: translate(14rem, -15rem) scale(0.01);
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
   transition: all 1s ease;
 }
 
@@ -374,7 +451,9 @@ input[type=radio] {
   content: "";
   top: 50%;
   left: 0.7rem;
-  color: #4B6279;
+  color: var(--header-color-2);
+  -webkit-transform: scale(0) translateY(-50%);
+  -ms-transform: scale(0) translateY(-50%);
   transform: scale(0) translateY(-50%);
 }
 
@@ -383,8 +462,10 @@ input[type=radio] {
   left: -14rem;
   bottom: -18rem;
   font-size: 3em;
+  -webkit-transform: scale(3);
+  -ms-transform: scale(3);
   transform: scale(3);
-  color: #4B6279;
+  color: var(--header-color-2);
 }
 
 .card .inlet {
@@ -415,20 +496,24 @@ input[type=radio] {
 
 @-webkit-keyframes boom {
   0% {
+    -webkit-box-shadow: 0px 0px 0px 15px rgba(100, 100, 100, 0.25);
     box-shadow: 0px 0px 0px 15px rgba(100, 100, 100, 0.25);
   }
 
   100% {
+    -webkit-box-shadow: 0px 0px 0px 15px rgba(100, 100, 100, 0);
     box-shadow: 0px 0px 0px 15px rgba(100, 100, 100, 0);
   }
 }
 
 @keyframes boom {
   0% {
+    -webkit-box-shadow: 0px 0px 0px 15px rgba(100, 100, 100, 0.25);
     box-shadow: 0px 0px 0px 15px rgba(100, 100, 100, 0.25);
   }
 
   100% {
+    -webkit-box-shadow: 0px 0px 0px 15px rgba(100, 100, 100, 0);
     box-shadow: 0px 0px 0px 15px rgba(100, 100, 100, 0);
   }
 }
@@ -459,6 +544,9 @@ input[type=radio] {
   }
 
   .cCalc {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
@@ -479,7 +567,7 @@ input[type=radio] {
   .tooltip-text {
     right: 50px;
     background: #ec7878;
-    color: #333;
+    color: var(--paragraph-color-2);
     z-index: 5;
   }
 }
