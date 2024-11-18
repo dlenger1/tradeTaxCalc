@@ -28,6 +28,10 @@
   --invalid-border1: red;
   --invalid-color1: red;
   --list-marks-color1: rgb(11, 8, 9);
+  /* Ergebnis form */
+  --Ergebnis-color: #08da6a;
+  --Black-input-ergebnis: black;
+  --Trade-tax-color: red;
 }
 
 * {

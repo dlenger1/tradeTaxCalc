@@ -481,17 +481,17 @@ input[type=radio] {
 
 #trade-tax__div,
 #trade-tax {
-  color: #08da6a;
+  color: var(--Trade-tax-color);
 }
 
 .reduction-amount__out-div,
 #reduction-amount__out {
-  color: #e32a05;
+  color: var(--Black-input-ergebnis);
 }
 
 .result__div,
 #result {
-  color: #5908da;
+  color: var(--Ergebnis-color);
 }
 
 @-webkit-keyframes boom {
