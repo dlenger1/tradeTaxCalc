@@ -1,6 +1,6 @@
 // import states from '../data/states.json' with { type: 'json' };
 let states;
-fetch('../data/states.json')
+fetch('./data/states.json')
   .then((res) => {
     if (!res.ok) {
       throw new Error(`HTTP error! Status: ${res.status}`);
