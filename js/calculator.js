@@ -1,5 +1,18 @@
-import  states  from '../data/states.json' with {type:'json'};
-import {populateSelectElementArray, removeSelectElement} from './create-remove-html.js';
+// import states from '../data/states.json' with { type: 'json' };
+let states;
+fetch('../data/states.json')
+  .then((res) => {
+    if (!res.ok) {
+      throw new Error(`HTTP error! Status: ${res.status}`);
+    }
+    return res.json();
+  })
+  .then((data) => (states = data))
+  .catch((error) => console.error('Unable to fetch data:', error));
+import {
+  populateSelectElementArray,
+  removeSelectElement,
+} from './create-remove-html.js';
 // fetch('../data/data.json')
 //   .then((response) => response.json())
 //   .then((json) => console.log(json));
@@ -44,6 +57,7 @@ class Calculator {
     this.StateSelections = document.getElementById('gemeinde');
     this.checkedMunicipality = document.getElementById('gemeinde-check');
     // end selection
+    this.timer = 0;
     this.events();
   }
   // 2.events
@@ -57,8 +71,12 @@ class Calculator {
     this.cCalc.addEventListener(
       'keypress',
       (e) => {
-        console.log(e.target.id);     
-        if (e.target.tagName === 'INPUT' && e.target.type == 'text' && e.target.id !=='gemeinde') {
+        // console.log(e.target.id);
+        if (
+          e.target.tagName === 'INPUT' &&
+          e.target.type == 'text' &&
+          e.target.id !== 'gemeinde'
+        ) {
           if (
             e.ctrlKey ||
             e.altKey ||
@@ -78,7 +96,13 @@ class Calculator {
       'keyup',
       (e) => {
         if (e.target.tagName === 'INPUT' && e.target.type == 'text') {
-          this.calculateTheTax();
+          // let timer;
+          const delayCalculation = (callback, ms) => {
+            clearTimeout(this.timer);
+            this.timer = setTimeout(callback, ms);
+          };
+          delayCalculation(this.calculateTheTax.bind(this), 1000);
+          // this.calculateTheTax();
         }
       },
       false
@@ -92,11 +116,11 @@ class Calculator {
       if (this.checkedMunicipality.checked) {
         populateSelectElementArray('gemeinde', states);
         $('#gemeinde').select2();
-        $('#gemeinde').on('select2:select',  (e) => {
+        $('#gemeinde').on('select2:select', (e) => {
           var data = e.params.data.id;
           this.taxRat.value = data;
           this.calculateTheTax();
-});
+        });
         // this.StateSelections.classList.add('tax-rate__active');
         // this.StateSelections.addEventListener('change', () => {
         //   this.taxRat.value = this.StateSelections.value;
@@ -106,7 +130,7 @@ class Calculator {
         $('#gemeinde').select2('destroy');
         $('#gemeinde').off('select2:select');
         //this.StateSelections.classList.remove('tax-rate__active');
-        removeSelectElement('gemeinde')
+        removeSelectElement('gemeinde');
       }
     });
   }
@@ -139,12 +163,13 @@ class Calculator {
   addErrAlert(errObj) {
     console.log('I am error alert func');
     if (!errObj.errMsg) {
-      errMsg = 'there is am error';
+      errMsg = 'there is an error';
     }
     errObj.outErrElement.innerText = errObj.errMsg;
     errObj.inErrElement.setCustomValidity(errObj.errMsg);
     errObj.outErrElement.classList.add('span-err');
   }
+
   removeErrAlert(errItemsObj) {
     errItemsObj.inputElement.setCustomValidity('');
     errItemsObj.outputElement.classList.remove('span-err');
@@ -153,13 +178,25 @@ class Calculator {
   checkEnteredValues(inputElement, outputElement, elementType) {
     if (
       inputElement.value.includes('..') ||
-      inputElement.value.includes(',,')
+      inputElement.value.includes(',,') ||
+      (inputElement === this.taxRat &&
+        (inputElement.value < 200 || inputElement.value > 600))
     ) {
-      this.addErrAlert({
-        outErrElement: outputElement,
-        inErrElement: inputElement,
-        errMsg: 'Bitte geben Sie einen richtigen Wert ein',
-      });
+      if (inputElement === this.taxRat) {
+        this.addErrAlert({
+          outErrElement: outputElement,
+          inErrElement: inputElement,
+          errMsg: 'Hebesatz der Gemeinde musst zwischen 200 und 600',
+        });
+        this.taxRat.placeholder = `${this.taxRat.value}>> Number muss zwischen 200 und 600 sein `;
+        this.taxRat.value = '';
+      } else {
+        this.addErrAlert({
+          outErrElement: outputElement,
+          inErrElement: inputElement,
+          errMsg: 'Bitte geben Sie einen richtigen Wert ein',
+        });
+      }
     } else {
       const N1 = inputElement.value.replaceAll('.', '');
       const N2 = N1.replace(',', '.');
@@ -229,9 +266,7 @@ class Calculator {
     const reductionAmount = this.convertToEnNum(
       this.reductionAmountOut.innerText
     );
-    const municipalTaxRate = this.convertToEnNum(
-      this.municipalTaxRate.innerText
-    );
+    let municipalTaxRate = this.convertToEnNum(this.municipalTaxRate.innerText);
     let result = 0;
     const businessIncomePure =
       businessIncome + additionalAmount - reductionAmount;
@@ -248,6 +283,10 @@ class Calculator {
     if (this.legalEntity.checked && businessIncomePure > 5000) {
       result = businessIncomePure - allowance;
     } else if (this.legalEntity.checked && businessIncomePure <= 5000) {
+      result = 0;
+    }
+    if (isNaN(municipalTaxRate)) {
+      municipalTaxRate = 200;
       result = 0;
     }
     const rounded = Math.floor(result / 100) * 100;
