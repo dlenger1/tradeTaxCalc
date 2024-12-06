@@ -188,13 +188,13 @@ class Calculator {
           inErrElement: inputElement,
           errMsg: 'Hebesatz der Gemeinde musst zwischen 200 und 600',
         });
-        this.taxRat.placeholder = `${this.taxRat.value}>> Number muss zwischen 200 und 600 sein `;
+        this.taxRat.placeholder = `${this.taxRat.value}>> Nummer muss zwischen 200 und 600 sein `;
         this.taxRat.value = '';
       } else {
         this.addErrAlert({
           outErrElement: outputElement,
           inErrElement: inputElement,
-          errMsg: 'Bitte geben Sie einen richtigen Wert ein',
+          errMsg: 'Bitte gib einen richtigen Wert ein',
         });
       }
     } else {
@@ -205,7 +205,7 @@ class Calculator {
         this.addErrAlert({
           outErrElement: outputElement,
           inErrElement: inputElement,
-          errMsg: 'Bitte geben Sie einen richtigen Wert ein',
+          errMsg: 'Bitte gib einen richtigen Wert ein',
         });
       } else {
         outputElement.innerText = N3;
